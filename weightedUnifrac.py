@@ -14,6 +14,4 @@ def weightedUnifrac(dataFrame, otu_ids, tree):
     dm = beta_diversity("weighted_unifrac", data, otu_ids=otu_ids, tree=tree)
     dm.ids = dataFrame.index
 
-    print(dm)
-
     return dm

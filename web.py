@@ -41,12 +41,11 @@ def worker():
                          'maxPCx': maxPCx}
 
             insertDB({'id': item['id'], 'matrix': matrix, 'result': table, 'response': json.dumps(json_data)})
-            sendMail(params.mail, "Calculation finish! \n"
-                           "Click on the link to view the result: http://localhost:3000/" + item['id'])
+            sendMail(params, item['id'], True)
 
         except Exception as e:
             insertDB({'id': item['id'], 'matrix': "", 'result': "", 'response': "error"})
-            sendMail(params.mail, "Some data is incorrect. Please check them and try the calculation again")
+            sendMail(params, None, False)
 
         q.task_done()
 
