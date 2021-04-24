@@ -1,4 +1,4 @@
-import smtplib, ssl
+from packages import *
 
 def sendMail(mail, content):
     port = 465  # For SSL

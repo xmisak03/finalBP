@@ -11,6 +11,8 @@ import {store} from './index.js'
 
 import {saveAs} from "file-saver";
 
+let mail
+
 const state = {
     button: 1
 };
@@ -48,7 +50,7 @@ class MainFormPCoA extends Component {
         }, 5000);
     }
 
-    // after select data file
+    // after select data file type
     onSelect(e, fileType, props) {
         console.log(fileType)
         if (fileType == "biom") {
@@ -113,6 +115,17 @@ class MainFormPCoA extends Component {
         });
     }
 
+    getMail() {
+        let inputMail = prompt("It may take a while. Please enter your mail for results:", "");
+        const regexMail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (regexMail.test(String(inputMail).toLowerCase())) {
+            return inputMail
+        }
+        else {
+            return ""
+        }
+    }
+
     render() {
         return (
         <div className="formWrapper">
@@ -145,6 +158,12 @@ class MainFormPCoA extends Component {
                         }
                         else{
                             if (values.matrix != "bray_curtis"){
+                                while (values.mail == "") {
+                                    mail = this.getMail()
+                                    if (mail != "") {
+                                        values.mail = mail
+                                    }
+                                }
                                 values.mail = prompt("It may take a while. Please enter your mail for results:", "");
                             }
                             else {

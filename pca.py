@@ -16,7 +16,6 @@ def pca_do(params):
         # load file data and prepare them
         if params.fileType == "biom":
             dataset = load_table(params.file)
-            print(dataset)
             df = pd.DataFrame(dataset.matrix_data.T.todense().astype(int), index=dataset.ids(axis='sample'),
                               columns=dataset.ids(axis='observation')).T
 

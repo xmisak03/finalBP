@@ -20,9 +20,8 @@ class MainForm extends Component {
         this.forceUpdate();
     };
 
-    // after select data file
+    // after select data file type
     onSelect(e, fileType, props) {
-        console.log(fileType)
         if (fileType == "biom") {
             document.getElementById('metaFile').value = null
             document.getElementById('metadataPart').style.display='none'

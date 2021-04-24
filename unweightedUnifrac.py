@@ -10,19 +10,8 @@ def unweightedUnifrac(dataFrame, otu_ids, tree):
     """
 
     dataFrame = dataFrame[~np.all(dataFrame == 0, axis=1)]
-    df = pd.DataFrame(columns=dataFrame.index, index=dataFrame.index)
     data = dataFrame.values
-
-    for i in range(len(data)):
-        for j in range(len(data)):
-            if i == j:
-                df.at[dataFrame.index[i], dataFrame.index[j]] = 0
-            else:
-                partialCalculation = unweighted_unifrac(data[i], data[j], otu_ids, tree)
-                df.at[dataFrame.index[i], dataFrame.index[j]] = partialCalculation
-
-    dmData = df.values
-    ids = dataFrame.index
-    dm = DistanceMatrix(dmData, ids)
+    dm = beta_diversity("unweighted_unifrac", data, otu_ids=otu_ids, tree=tree)
+    dm.ids = dataFrame.index
 
     return dm

@@ -27,7 +27,16 @@
     <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braycurtis.py" beforeDir="false" afterPath="$PROJECT_DIR$/braycurtis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materials/data/iris/iris_data_matrix.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/materials/data/iris/iris_data_matrix.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unweightedUnifrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/unweightedUnifrac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weightedUnifrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/weightedUnifrac.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +413,7 @@
       <workItem from="1618943836592" duration="7570000" />
       <workItem from="1618955791677" duration="1504000" />
       <workItem from="1618959373800" duration="51501000" />
-      <workItem from="1619259133029" duration="413000" />
+      <workItem from="1619259133029" duration="16283000" />
     </task>
     <task id="LOCAL-00001" summary="unifrac">
       <created>1619043127439</created>
@@ -456,25 +465,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1618955765041" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1619259524800">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1619296914182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619259524800" />
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
     <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1619259524800">
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1619296914182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619259524800" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
     <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1619259524800">
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1619296914181">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619259524800" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914181" />
     <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1619259524800">
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1619296914182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619259524800" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
     <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1619215186888">
       <screen x="0" y="0" width="1536" height="834" />
@@ -514,14 +523,6 @@
     <state x="320" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1618869748411" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mail.py</url>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="TreeNode" />
@@ -530,7 +531,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BP$pyvenv.coverage" NAME="pyvenv Coverage Results" MODIFIED="1619259524789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BP$pyvenv.coverage" NAME="pyvenv Coverage Results" MODIFIED="1619296914164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BP$setup.coverage" NAME="setup Coverage Results" MODIFIED="1618943654169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyvenv$main.coverage" NAME="main Coverage Results" MODIFIED="1588774759019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyvenv" />
     <SUITE FILE_PATH="coverage/BP$worker.coverage" NAME="worker Coverage Results" MODIFIED="1618157259052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

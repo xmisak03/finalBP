@@ -8,6 +8,7 @@ def weightedUnifrac(dataFrame, otu_ids, tree):
     :param tree: phylogenetic
     :return: distance matrix
     """
+
     dataFrame = dataFrame[~np.all(dataFrame == 0, axis=1)]
     data = dataFrame.values
     dm = beta_diversity("weighted_unifrac", data, otu_ids=otu_ids, tree=tree)

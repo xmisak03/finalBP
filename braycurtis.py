@@ -10,4 +10,5 @@ def braycurtis(dataFrame):
     data = dataFrame.values
     dm = beta_diversity("braycurtis", data)
     dm.ids = dataFrame.index
+
     return dm
