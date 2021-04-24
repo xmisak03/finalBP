@@ -1,0 +1,124 @@
+.formWrapper {
+  padding: 50px;
+}
+
+.select{
+  width: 100%;
+}
+
+.input{
+  width: 97%;
+}
+
+.buttonpca{
+  width: 11%;
+  height: 35px;
+  background-color:  rgb(115, 163, 252);
+}
+
+.buttonpcoa{
+  width: 11%;
+  height: 35px;
+}
+
+.newCalculation{
+  width: 22%;
+  height: 35px;
+  display: none;
+}
+
+.formpca {
+  float: left;
+  width: 22%;
+  height: 50%;
+  background-color:  rgb(115, 163, 252);
+  display: block;
+}
+
+.formpcoa {
+  float: left;
+  width: 22%;
+  height: 50%;
+  background-color: rgb(115, 163, 252);
+  display: None;
+}
+
+.download{
+  padding: 50px;
+}
+
+.graph {
+  display: flex;
+  float: center;
+  width: 100;
+  height: 100%;
+}
+
+.warning {
+  color: red;
+}
+
+.metadata{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  height:25px;
+}
+
+.noteColoring{
+  font-size: small;
+  color: blue;
+}
+
+.noteDownload{
+  font-size: small;
+  color: blue;
+  display: none;
+}
+
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.metadataPart {
+  display: none;
+}
+
+.plotButtons {
+  text-align: -webkit-center;
+}
+
+.dataPlot {
+  display: block;
+  text-align: center;
+}
+
+.colPlot {
+  display: none;
+  text-align: center;
+}
+
+.result {
+  background-color: rgb(115, 163, 252);
+  width: 10%;
+  height: 30px;
+}
+
+.pcx {
+  width: 10%;
+  height: 30px;
+}
+
+.hideLegend {
+  display: block;
+  margin-top: 2px;
+}
+
+.showLegend {
+  display: none;
+  margin-top: 2px;
+}

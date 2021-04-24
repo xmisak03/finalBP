@@ -1,0 +1,207 @@
+#SampleID	cislo_vzorku	BarcodeSequence	LinkerPrimerSequence	Cislo_ucastnika	Cislo_odberoveho_kitu	Izolace	Kit_izolace	Zamrazeni	Zamrazeno_v_pufru	TOIK	Primer_Illumina	Index_kombinace	Description
+1_I1_I1	1	NA	NA	111	1	Stool_kit_Qiagen	S1.1	0	0	1	I1	1	stolice
+1_I2_I2	2	NA	NA	112	1	Stool_kit_Qiagen	S1.1	0	0	1	I2	1	stolice
+1_I3_I3	3	NA	NA	113	1	Stool_kit_Qiagen	S1.1	0	0	1	I3	1	stolice
+1_I4_I4	4	NA	NA	114	1	Stool_kit_Qiagen	S1.1	0	0	1	I4	1	stolice
+1_I5_I5	5	NA	NA	115	1	Stool_kit_Qiagen	S1.1	0	0	1	I5	1	stolice
+1_I6_I6	6	NA	NA	116	1	Stool_kit_Qiagen	S1.1	0	0	1	I6	1	stolice
+1_I7_I7	7	NA	NA	117	1	Stool_kit_Qiagen	S1.1	0	0	1	I7	1	stolice
+1_I8_I8	8	NA	NA	118	1	Stool_kit_Qiagen	S1.1	0	0	1	I8	1	stolice
+1_I9_I9	9	NA	NA	119	1	Stool_kit_Qiagen	S1.1	0	0	1	I9	1	stolice
+1_I10_I10	10	NA	NA	120	1	Stool_kit_Qiagen	S1.1	0	0	1	I10	1	stolice
+1_I11_I11	11	NA	NA	121	1	Stool_kit_Qiagen	S1.1	0	0	1	I11	1	stolice
+1_I12_I12	12	NA	NA	122	1	Stool_kit_Qiagen	S1.1	0	0	1	I12	1	stolice
+1_I13_I13	13	NA	NA	123	1	Stool_kit_Qiagen	S1.1	0	0	1	I13	1	stolice
+1_I14_I14	14	NA	NA	124	1	Stool_kit_Qiagen	S1.1	0	0	1	I14	1	stolice
+1_I15_I15	15	NA	NA	125	1	Stool_kit_Qiagen	S1.1	0	0	1	I15	1	stolice
+1_I16_I16	16	NA	NA	126	1	Stool_kit_Qiagen	S1.1	0	0	1	I16	1	stolice
+2_I1_I1	17	NA	NA	111	1	MoBio_Power_Soil	S1.2	0	0	1	I1	2	stolice
+2_I2_I2	18	NA	NA	112	1	MoBio_Power_Soil	S1.2	0	0	1	I2	2	stolice
+2_I3_I3	19	NA	NA	113	1	MoBio_Power_Soil	S1.2	0	0	1	I3	2	stolice
+2_I4_I4	20	NA	NA	114	1	MoBio_Power_Soil	S1.2	0	0	1	I4	2	stolice
+2_I5_I5	21	NA	NA	115	1	MoBio_Power_Soil	S1.2	0	0	1	I5	2	stolice
+2_I6_I6	22	NA	NA	116	1	MoBio_Power_Soil	S1.2	0	0	1	I6	2	stolice
+2_I7_I7	23	NA	NA	117	1	MoBio_Power_Soil	S1.2	0	0	1	I7	2	stolice
+2_I8_I8	24	NA	NA	118	1	MoBio_Power_Soil	S1.2	0	0	1	I8	2	stolice
+2_I9_I9	25	NA	NA	119	1	MoBio_Power_Soil	S1.2	0	0	1	I9	2	stolice
+2_I10_I10	26	NA	NA	120	1	MoBio_Power_Soil	S1.2	0	0	1	I10	2	stolice
+2_I11_I11	27	NA	NA	121	1	MoBio_Power_Soil	S1.2	0	0	1	I11	2	stolice
+2_I12_I12	28	NA	NA	122	1	MoBio_Power_Soil	S1.2	0	0	1	I12	2	stolice
+2_I13_I13	29	NA	NA	123	1	MoBio_Power_Soil	S1.2	0	0	1	I13	2	stolice
+2_I14_I14	30	NA	NA	124	1	MoBio_Power_Soil	S1.2	0	0	1	I14	2	stolice
+2_I15_I15	31	NA	NA	125	1	MoBio_Power_Soil	S1.2	0	0	1	I15	2	stolice
+2_I16_I16	32	NA	NA	126	1	MoBio_Power_Soil	S1.2	0	0	1	I16	2	stolice
+3_I1_I1	33	NA	NA	111	2	Stool_kit_Qiagen	S2.1	0	0	1	I1	3	stolice
+3_I2_I2	34	NA	NA	112	2	Stool_kit_Qiagen	S2.1	0	0	1	I2	3	stolice
+3_I3_I3	35	NA	NA	113	2	Stool_kit_Qiagen	S2.1	0	0	1	I3	3	stolice
+3_I4_I4	36	NA	NA	114	2	Stool_kit_Qiagen	S2.1	0	0	1	I4	3	stolice
+3_I5_I5	37	NA	NA	115	2	Stool_kit_Qiagen	S2.1	0	0	1	I5	3	stolice
+3_I6_I6	38	NA	NA	116	2	Stool_kit_Qiagen	S2.1	0	0	1	I6	3	stolice
+3_I7_I7	39	NA	NA	117	2	Stool_kit_Qiagen	S2.1	0	0	1	I7	3	stolice
+3_I8_I8	40	NA	NA	118	2	Stool_kit_Qiagen	S2.1	0	0	1	I8	3	stolice
+3_I9_I9	41	NA	NA	119	2	Stool_kit_Qiagen	S2.1	0	0	1	I9	3	stolice
+3_I10_I10	42	NA	NA	120	2	Stool_kit_Qiagen	S2.1	0	0	1	I10	3	stolice
+3_I11_I11	43	NA	NA	121	2	Stool_kit_Qiagen	S2.1	0	0	1	I11	3	stolice
+3_I12_I12	44	NA	NA	122	2	Stool_kit_Qiagen	S2.1	0	0	1	I12	3	stolice
+3_I13_I13	45	NA	NA	123	2	Stool_kit_Qiagen	S2.1	0	0	1	I13	3	stolice
+3_I14_I14	46	NA	NA	124	2	Stool_kit_Qiagen	S2.1	0	0	1	I14	3	stolice
+3_I15_I15	47	NA	NA	125	2	Stool_kit_Qiagen	S2.1	0	0	1	I15	3	stolice
+3_I16_I16	48	NA	NA	126	2	Stool_kit_Qiagen	S2.1	0	0	1	I16	3	stolice
+4_I1_I1	49	NA	NA	111	2	MoBio_Power_Soil	S2.2	0	0	1	I1	4	stolice
+4_I2_I2	50	NA	NA	112	2	MoBio_Power_Soil	S2.2	0	0	1	I2	4	stolice
+4_I3_I3	51	NA	NA	113	2	MoBio_Power_Soil	S2.2	0	0	1	I3	4	stolice
+4_I4_I4	52	NA	NA	114	2	MoBio_Power_Soil	S2.2	0	0	1	I4	4	stolice
+4_I5_I5	53	NA	NA	115	2	MoBio_Power_Soil	S2.2	0	0	1	I5	4	stolice
+4_I6_I6	54	NA	NA	116	2	MoBio_Power_Soil	S2.2	0	0	1	I6	4	stolice
+4_I7_I7	55	NA	NA	117	2	MoBio_Power_Soil	S2.2	0	0	1	I7	4	stolice
+4_I8_I8	56	NA	NA	118	2	MoBio_Power_Soil	S2.2	0	0	1	I8	4	stolice
+4_I9_I9	57	NA	NA	119	2	MoBio_Power_Soil	S2.2	0	0	1	I9	4	stolice
+4_I10_I10	58	NA	NA	120	2	MoBio_Power_Soil	S2.2	0	0	1	I10	4	stolice
+4_I11_I11	59	NA	NA	121	2	MoBio_Power_Soil	S2.2	0	0	1	I11	4	stolice
+4_I12_I12	60	NA	NA	122	2	MoBio_Power_Soil	S2.2	0	0	1	I12	4	stolice
+4_I13_I13	61	NA	NA	123	2	MoBio_Power_Soil	S2.2	0	0	1	I13	4	stolice
+4_I14_I14	62	NA	NA	124	2	MoBio_Power_Soil	S2.2	0	0	1	I14	4	stolice
+4_I15_I15	63	NA	NA	125	2	MoBio_Power_Soil	S2.2	0	0	1	I15	4	stolice
+4_I16_I16	64	NA	NA	126	2	MoBio_Power_Soil	S2.2	0	0	1	I16	4	stolice
+5_I1_I1	65	NA	NA	111	3	Stool_kit_Qiagen	S3.1	0	0	1	I1	5	stolice
+5_I2_I2	66	NA	NA	112	3	Stool_kit_Qiagen	S3.1	0	0	1	I2	5	stolice
+5_I3_I3	67	NA	NA	113	3	Stool_kit_Qiagen	S3.1	0	0	1	I3	5	stolice
+5_I4_I4	68	NA	NA	114	3	Stool_kit_Qiagen	S3.1	0	0	1	I4	5	stolice
+5_I5_I5	69	NA	NA	115	3	Stool_kit_Qiagen	S3.1	0	0	1	I5	5	stolice
+5_I6_I6	70	NA	NA	116	3	Stool_kit_Qiagen	S3.1	0	0	1	I6	5	stolice
+5_I7_I7	71	NA	NA	117	3	Stool_kit_Qiagen	S3.1	0	0	1	I7	5	stolice
+5_I8_I8	72	NA	NA	118	3	Stool_kit_Qiagen	S3.1	0	0	1	I8	5	stolice
+5_I9_I9	73	NA	NA	119	3	Stool_kit_Qiagen	S3.1	0	0	1	I9	5	stolice
+5_I10_I10	74	NA	NA	120	3	Stool_kit_Qiagen	S3.1	0	0	1	I10	5	stolice
+5_I11_I11	75	NA	NA	121	3	Stool_kit_Qiagen	S3.1	0	0	1	I11	5	stolice
+5_I12_I12	76	NA	NA	122	3	Stool_kit_Qiagen	S3.1	0	0	1	I12	5	stolice
+5_I13_I13	77	NA	NA	123	3	Stool_kit_Qiagen	S3.1	0	0	1	I13	5	stolice
+5_I14_I14	78	NA	NA	124	3	Stool_kit_Qiagen	S3.1	0	0	1	I14	5	stolice
+5_I15_I15	79	NA	NA	125	3	Stool_kit_Qiagen	S3.1	0	0	1	I15	5	stolice
+5_I16_I16	80	NA	NA	126	3	Stool_kit_Qiagen	S3.1	0	0	1	I16	5	stolice
+6_I1_I1	81	NA	NA	111	3	MoBio_Power_Soil	S3.2	0	0	1	I1	6	stolice
+6_I2_I2	82	NA	NA	112	3	MoBio_Power_Soil	S3.2	0	0	1	I2	6	stolice
+6_I3_I3	83	NA	NA	113	3	MoBio_Power_Soil	S3.2	0	0	1	I3	6	stolice
+6_I4_I4	84	NA	NA	114	3	MoBio_Power_Soil	S3.2	0	0	1	I4	6	stolice
+6_I5_I5	85	NA	NA	115	3	MoBio_Power_Soil	S3.2	0	0	1	I5	6	stolice
+6_I6_I6	86	NA	NA	116	3	MoBio_Power_Soil	S3.2	0	0	1	I6	6	stolice
+6_I7_I7	87	NA	NA	117	3	MoBio_Power_Soil	S3.2	0	0	1	I7	6	stolice
+6_I8_I8	88	NA	NA	118	3	MoBio_Power_Soil	S3.2	0	0	1	I8	6	stolice
+6_I9_I9	89	NA	NA	119	3	MoBio_Power_Soil	S3.2	0	0	1	I9	6	stolice
+6_I10_I10	90	NA	NA	120	3	MoBio_Power_Soil	S3.2	0	0	1	I10	6	stolice
+6_I11_I11	91	NA	NA	121	3	MoBio_Power_Soil	S3.2	0	0	1	I11	6	stolice
+6_I12_I12	92	NA	NA	122	3	MoBio_Power_Soil	S3.2	0	0	1	I12	6	stolice
+6_I13_I13	93	NA	NA	123	3	MoBio_Power_Soil	S3.2	0	0	1	I13	6	stolice
+6_I14_I14	94	NA	NA	124	3	MoBio_Power_Soil	S3.2	0	0	1	I14	6	stolice
+6_I15_I15	95	NA	NA	125	3	MoBio_Power_Soil	S3.2	0	0	1	I15	6	stolice
+6_I16_I16	96	NA	NA	126	3	MoBio_Power_Soil	S3.2	0	0	1	I16	6	stolice
+7_I1_I1	97	NA	NA	111	2	MoBio_Power_Soil	B2.1	0	1	1	I1	7	bukalni_ster
+7_I2_I2	98	NA	NA	112	2	MoBio_Power_Soil	B2.1	0	1	1	I2	7	bukalni_ster
+7_I3_I3	99	NA	NA	113	2	MoBio_Power_Soil	B2.1	0	1	1	I3	7	bukalni_ster
+7_I4_I4	100	NA	NA	114	2	MoBio_Power_Soil	B2.1	0	1	1	I4	7	bukalni_ster
+7_I5_I5	101	NA	NA	115	2	MoBio_Power_Soil	B2.1	0	1	1	I5	7	bukalni_ster
+7_I6_I6	102	NA	NA	116	2	MoBio_Power_Soil	B2.1	0	1	1	I6	7	bukalni_ster
+7_I7_I7	103	NA	NA	117	2	MoBio_Power_Soil	B2.1	0	1	1	I7	7	bukalni_ster
+7_I8_I8	104	NA	NA	118	2	MoBio_Power_Soil	B2.1	0	1	1	I8	7	bukalni_ster
+7_I9_I9	105	NA	NA	119	2	MoBio_Power_Soil	B2.1	0	1	1	I9	7	bukalni_ster
+7_I10_I10	106	NA	NA	120	2	MoBio_Power_Soil	B2.1	0	1	1	I10	7	bukalni_ster
+7_I11_I11	107	NA	NA	121	2	MoBio_Power_Soil	B2.1	0	1	1	I11	7	bukalni_ster
+7_I12_I12	108	NA	NA	122	2	MoBio_Power_Soil	B2.1	0	1	1	I12	7	bukalni_ster
+7_I13_I13	109	NA	NA	123	2	MoBio_Power_Soil	B2.1	0	1	1	I13	7	bukalni_ster
+7_I14_I14	110	NA	NA	124	2	MoBio_Power_Soil	B2.1	0	1	1	I14	7	bukalni_ster
+7_I15_I15	111	NA	NA	125	2	MoBio_Power_Soil	B2.1	0	1	1	I15	7	bukalni_ster
+7_I16_I16	112	NA	NA	126	2	MoBio_Power_Soil	B2.1	0	1	1	I16	7	bukalni_ster
+8_I1_I1	113	NA	NA	111	2	MoBio_Power_Biofilm	B2.2	0	1	1	I1	8	bukalni_ster
+8_I2_I2	114	NA	NA	112	2	MoBio_Power_Biofilm	B2.2	0	1	1	I2	8	bukalni_ster
+8_I3_I3	115	NA	NA	113	2	MoBio_Power_Biofilm	B2.2	0	1	1	I3	8	bukalni_ster
+8_I4_I4	116	NA	NA	114	2	MoBio_Power_Biofilm	B2.2	0	1	1	I4	8	bukalni_ster
+8_I5_I5	117	NA	NA	115	2	MoBio_Power_Biofilm	B2.2	0	1	1	I5	8	bukalni_ster
+8_I6_I6	118	NA	NA	116	2	MoBio_Power_Biofilm	B2.2	0	1	1	I6	8	bukalni_ster
+8_I7_I7	119	NA	NA	117	2	MoBio_Power_Biofilm	B2.2	0	1	1	I7	8	bukalni_ster
+8_I8_I8	120	NA	NA	118	2	MoBio_Power_Biofilm	B2.2	0	1	1	I8	8	bukalni_ster
+8_I9_I9	121	NA	NA	119	2	MoBio_Power_Biofilm	B2.2	0	1	1	I9	8	bukalni_ster
+8_I10_I10	122	NA	NA	120	2	MoBio_Power_Biofilm	B2.2	0	1	1	I10	8	bukalni_ster
+8_I11_I11	123	NA	NA	121	2	MoBio_Power_Biofilm	B2.2	0	1	1	I11	8	bukalni_ster
+8_I12_I12	124	NA	NA	122	2	MoBio_Power_Biofilm	B2.2	0	1	1	I12	8	bukalni_ster
+8_I13_I13	125	NA	NA	123	2	MoBio_Power_Biofilm	B2.2	0	1	1	I13	8	bukalni_ster
+8_I14_I14	126	NA	NA	124	2	MoBio_Power_Biofilm	B2.2	0	1	1	I14	8	bukalni_ster
+8_I15_I15	127	NA	NA	125	2	MoBio_Power_Biofilm	B2.2	0	1	1	I15	8	bukalni_ster
+8_I16_I16	128	NA	NA	126	2	MoBio_Power_Biofilm	B2.2	0	1	1	I16	8	bukalni_ster
+9_I1_I1	129	NA	NA	111	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I1	9	bukalni_ster
+9_I2_I2	130	NA	NA	112	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I2	9	bukalni_ster
+9_I3_I3	131	NA	NA	113	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I3	9	bukalni_ster
+9_I4_I4	132	NA	NA	114	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I4	9	bukalni_ster
+9_I5_I5	133	NA	NA	115	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I5	9	bukalni_ster
+9_I6_I6	134	NA	NA	116	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I6	9	bukalni_ster
+9_I7_I7	135	NA	NA	117	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I7	9	bukalni_ster
+9_I8_I8	136	NA	NA	118	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I8	9	bukalni_ster
+9_I9_I9	137	NA	NA	119	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I9	9	bukalni_ster
+9_I10_I10	138	NA	NA	120	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I10	9	bukalni_ster
+9_I11_I11	139	NA	NA	121	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I11	9	bukalni_ster
+9_I12_I12	140	NA	NA	122	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I12	9	bukalni_ster
+9_I13_I13	141	NA	NA	123	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I13	9	bukalni_ster
+9_I14_I14	142	NA	NA	124	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I14	9	bukalni_ster
+9_I15_I15	143	NA	NA	125	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I15	9	bukalni_ster
+9_I16_I16	144	NA	NA	126	2	DNA_MINI_Kit_Qiagen	B2.3	0	1	1	I16	9	bukalni_ster
+10_I1_I1	145	NA	NA	111	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I1	10	bukalni_ster
+10_I2_I2	146	NA	NA	112	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I2	10	bukalni_ster
+10_I3_I3	147	NA	NA	113	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I3	10	bukalni_ster
+10_I4_I4	148	NA	NA	114	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I4	10	bukalni_ster
+10_I5_I5	149	NA	NA	115	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I5	10	bukalni_ster
+10_I6_I6	150	NA	NA	116	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I6	10	bukalni_ster
+10_I7_I7	151	NA	NA	117	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I7	10	bukalni_ster
+10_I8_I8	152	NA	NA	118	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I8	10	bukalni_ster
+10_I9_I9	153	NA	NA	119	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I9	10	bukalni_ster
+10_I10_I10	154	NA	NA	120	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I10	10	bukalni_ster
+10_I11_I11	155	NA	NA	121	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I11	10	bukalni_ster
+10_I12_I12	156	NA	NA	122	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I12	10	bukalni_ster
+10_I13_I13	157	NA	NA	123	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I13	10	bukalni_ster
+10_I14_I14	158	NA	NA	124	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I14	10	bukalni_ster
+10_I15_I15	159	NA	NA	125	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I15	10	bukalni_ster
+10_I16_I16	160	NA	NA	126	2	MoBio_Power_Biofilm bez pufru	B2.4	0	0	1	I16	10	bukalni_ster
+11_I1_I1	161	NA	NA	112	4	MoBio_Power_Soil	S4.2	0	1	0	I1	11	stolice
+11_I2_I2	162	NA	NA	112	4	MoBio_Power_Soil	S4.2	48	1	0	I2	11	stolice
+11_I3_I3	163	NA	NA	112	5	MoBio_Power_Biofilm bez pufru	B5.3	72	1	0	I3	11	bukalni_ster
+11_I4_I4	164	NA	NA	126	5	MoBio_Power_Biofilm bez pufru	B5.3	72	1	0	I4	11	bukalni_ster
+11_I5_I5	165	NA	NA	dite1	1	Stool_kit_Qiagen	S1.1	0	0	0	I5	11	stolice
+11_I6_I6	166	NA	NA	dite1	1	MoBio_Power_Soil	S1.2	0	0	0	I6	11	stolice
+11_I7_I7	167	NA	NA	dite1	1	MoBio_Power_Biofilm bez pufru	S1.3	0	0	0	I7	11	stolice
+11_I8_I8	168	NA	NA	dite1	2	Stool_kit_Qiagen	S2.1	0	0	0	I8	11	stolice
+11_I9_I9	169	NA	NA	dite1	2	MoBio_Power_Soil	S2.2	0	0	0	I9	11	stolice
+11_I10_I10	170	NA	NA	dite1	2	MoBio_Power_Biofilm bez pufru	S2.3	0	0	0	I10	11	stolice
+11_I11_I11	172	NA	NA	dite1	3	MoBio_Power_Soil	S3.2	0	0	0	I11	11	stolice
+11_I12_I12	173	NA	NA	dite1	3	MoBio_Power_Biofilm bez pufru	S3.3	0	0	0	I12	11	stolice
+11_I13_I13	174	NA	NA	dite2	1	Stool_kit_Qiagen	S1.1	0	0	0	I13	11	stolice
+11_I14_I14	175	NA	NA	dite2	1	MoBio_Power_Soil	S1.2	0	0	0	I14	11	stolice
+11_I15_I15	176	NA	NA	dite2	1	MoBio_Power_Biofilm bez pufru	S1.3	0	0	0	I15	11	stolice
+11_I16_I16	177	NA	NA	dite2	2	Stool_kit_Qiagen	S2.1	0	0	0	I16	11	stolice
+12_I1_I1	178	NA	NA	dite2	2	MoBio_Power_Soil	S2.2	0	0	0	I1	12	stolice
+12_I2_I2	179	NA	NA	dite2	2	MoBio_Power_Biofilm bez pufru	S2.3	0	0	0	I2	12	stolice
+12_I3_I3	181	NA	NA	dite2	3	MoBio_Power_Soil	S3.2	0	0	0	I3	12	stolice
+12_I4_I4	182	NA	NA	dite2	3	MoBio_Power_Biofilm bez pufru	S3.3	0	0	0	I4	12	stolice
+12_I5_I5	183	NA	NA	dite2	4	MoBio_Power_Biofilm bez pufru	S4.3	0	1	0	I5	12	stolice
+12_I6_I6	184	NA	NA	dite3	2	Stool_kit_Qiagen	S2.1	0	0	0	I6	12	meconium
+12_I7_I7	185	NA	NA	dite3	2	MoBio_Power_Soil	S2.2	0	0	0	I7	12	meconium
+12_I8_I8	186	NA	NA	dite3	2	MoBio_Power_Biofilm bez pufru	S2.3	0	0	0	I8	12	meconium
+12_I9_I9	187	NA	NA	112	2	MoBio_Power_Soil	S2.2	8	0	0	I9	12	stolice
+12_I10_I10	188	NA	NA	112	2	MoBio_Power_Soil	S2.2	24	0	0	I10	12	stolice
+12_I11_I11	189	NA	NA	112	2	MoBio_Power_Soil	S2.2	48	0	0	I11	12	stolice
+12_I12_I12	190	NA	NA	112	2	MoBio_Power_Biofilm bez pufru	B2.4	8	0	0	I12	12	bukalni_ster
+12_I13_I13	191	NA	NA	112	2	MoBio_Power_Biofilm bez pufru	B2.4	24	0	0	I13	12	bukalni_ster
+12_I14_I14	192	NA	NA	112	2	MoBio_Power_Biofilm bez pufru	B2.4	48	0	0	I14	12	bukalni_ster
+12_I15_I15	193	NA	NA	112	2	MoBio_Power_Soil bez pufru	B2.1_noB	0	0	0	I15	12	bukalni_ster
+12_I16_I16	194	NA	NA	112	2	MoBio_Power_Soil	B2.1_B	0	1	0	I16	12	bukalni_ster
+13_I1_I1	195	NA	NA	112	2	DNA_MINI_Kit_Qiagen bez pufru	B2.3_noB	0	0	0	I1	13	bukalni_ster
+13_I2_I2	196	NA	NA	112	2	DNA_MINI_Kit_Qiagen	B2.3_B	0	1	0	I2	13	bukalni_ster
+13_I3_I3	197	NA	NA	126	2	MoBio_Power_Soil bez pufru	B2.1_noB	0	0	0	I3	13	bukalni_ster
+13_I4_I4	198	NA	NA	126	2	MoBio_Power_Soil	B2.1_B	0	1	0	I4	13	bukalni_ster
+13_I5_I5	199	NA	NA	126	2	DNA_MINI_Kit_Qiagen bez pufru	B2.3_noB	0	0	0	I5	13	bukalni_ster
+13_I6_I6	200	NA	NA	126	2	DNA_MINI_Kit_Qiagen	B2.3_B	0	1	0	I6	13	bukalni_ster
+13_I7_I7	201	NA	NA	119	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I7	13	stolice
+13_I8_I8	202	NA	NA	120	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I8	13	stolice
+13_I9_I9	203	NA	NA	121	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I9	13	stolice
+13_I10_I10	204	NA	NA	122	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I10	13	stolice
+13_I11_I11	205	NA	NA	123	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I11	13	stolice
+13_I12_I12	206	NA	NA	124	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I12	13	stolice
+13_I13_I13	207	NA	NA	125	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I13	13	stolice
+13_I14_I14	208	NA	NA	126	1	Stool_kit_Qiagen bez zirconia beads	S1.4	0	0	0	I14	13	stolice

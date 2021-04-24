@@ -1,0 +1,302 @@
+{
+  "0":
+    {"type":"Iris-setosa","meta":"a" },
+  "1":
+    {"type":"Iris-setosa","meta":"b" },
+  "2":
+    {"type":"Iris-setosa","meta":"c" },
+  "3":
+    {"type":"Iris-setosa","meta":"a" },
+  "4":
+    {"type":"Iris-setosa","meta":"b" },
+  "5":
+    {"type":"Iris-setosa","meta":"c" },
+  "6":
+    {"type":"Iris-setosa","meta":"a" },
+  "7":
+    {"type":"Iris-setosa","meta":"b" },
+  "8":
+    {"type":"Iris-setosa","meta":"c" },
+  "9":
+    {"type":"Iris-setosa","meta":"a" },
+  "10":
+    {"type":"Iris-setosa","meta":"b" },
+  "11":
+    {"type":"Iris-setosa","meta":"c" },
+  "12":
+    {"type":"Iris-setosa","meta":"a" },
+  "13":
+    {"type":"Iris-setosa","meta":"b" },
+  "14":
+    {"type":"Iris-setosa","meta":"c" },
+  "15":
+    {"type":"Iris-setosa","meta":"a" },
+  "16":
+    {"type":"Iris-setosa","meta":"b" },
+  "17":
+    {"type":"Iris-setosa","meta":"c" },
+  "18":
+    {"type":"Iris-setosa","meta":"a" },
+  "19":
+    {"type":"Iris-setosa","meta":"b" },
+  "20":
+    {"type":"Iris-setosa","meta":"c" },
+  "21":
+    {"type":"Iris-setosa","meta":"a" },
+  "22":
+    {"type":"Iris-setosa","meta":"b" },
+  "23":
+    {"type":"Iris-setosa","meta":"c" },
+  "24":
+    {"type":"Iris-setosa","meta":"a" },
+  "25":
+    {"type":"Iris-setosa","meta":"b" },
+  "26":
+    {"type":"Iris-setosa","meta":"c" },
+  "27":
+    {"type":"Iris-setosa","meta":"a" },
+  "28":
+    {"type":"Iris-setosa","meta":"b" },
+  "29":
+    {"type":"Iris-setosa","meta":"c" },
+  "30":
+    {"type":"Iris-setosa","meta":"a" },
+  "31":
+    {"type":"Iris-setosa","meta":"b" },
+  "32":
+    {"type":"Iris-setosa","meta":"c" },
+  "33":
+    {"type":"Iris-setosa","meta":"a" },
+  "34":
+    {"type":"Iris-setosa","meta":"b" },
+  "35":
+    {"type":"Iris-setosa","meta":"c" },
+  "36":
+    {"type":"Iris-setosa","meta":"a" },
+  "37":
+    {"type":"Iris-setosa","meta":"b" },
+  "38":
+    {"type":"Iris-setosa","meta":"c" },
+  "39":
+    {"type":"Iris-setosa","meta":"a" },
+  "40":
+    {"type":"Iris-setosa","meta":"b" },
+  "41":
+    {"type":"Iris-setosa","meta":"c" },
+  "42":
+    {"type":"Iris-setosa","meta":"a" },
+  "43":
+    {"type":"Iris-setosa","meta":"b" },
+  "44":
+    {"type":"Iris-setosa","meta":"c" },
+  "45":
+    {"type":"Iris-setosa","meta":"a" },
+  "46":
+    {"type":"Iris-setosa","meta":"b" },
+  "47":
+    {"type":"Iris-setosa","meta":"c" },
+  "48":
+    {"type":"Iris-setosa","meta":"a" },
+  "49":
+    {"type":"Iris-setosa","meta":"b" },
+  "50":
+    {"type":"Iris-versicolor","meta":"c" },
+  "51":
+    {"type":"Iris-versicolor","meta":"a" },
+  "52":
+    {"type":"Iris-versicolor","meta":"b" },
+  "53":
+    {"type":"Iris-versicolor","meta":"c" },
+  "54":
+    {"type":"Iris-versicolor","meta":"a" },
+  "55":
+    {"type":"Iris-versicolor","meta":"b" },
+  "56":
+    {"type":"Iris-versicolor","meta":"c" },
+  "57":
+    {"type":"Iris-versicolor","meta":"a" },
+  "58":
+    {"type":"Iris-versicolor","meta":"b" },
+  "59":
+    {"type":"Iris-versicolor","meta":"c" },
+  "60":
+    {"type":"Iris-versicolor","meta":"a" },
+  "61":
+    {"type":"Iris-versicolor","meta":"b" },
+  "62":
+    {"type":"Iris-versicolor","meta":"c" },
+  "63":
+    {"type":"Iris-versicolor","meta":"a" },
+  "64":
+    {"type":"Iris-versicolor","meta":"b" },
+  "65":
+    {"type":"Iris-versicolor","meta":"c" },
+  "66":
+    {"type":"Iris-versicolor","meta":"a" },
+  "67":
+    {"type":"Iris-versicolor","meta":"b" },
+  "68":
+    {"type":"Iris-versicolor","meta":"c" },
+  "69":
+    {"type":"Iris-versicolor","meta":"a" },
+  "70":
+    {"type":"Iris-versicolor","meta":"b" },
+  "71":
+    {"type":"Iris-versicolor","meta":"c" },
+  "72":
+    {"type":"Iris-versicolor","meta":"a" },
+  "73":
+    {"type":"Iris-versicolor","meta":"b" },
+  "74":
+    {"type":"Iris-versicolor","meta":"c" },
+  "75":
+    {"type":"Iris-versicolor","meta":"a" },
+  "76":
+    {"type":"Iris-versicolor","meta":"b" },
+  "77":
+    {"type":"Iris-versicolor","meta":"c" },
+  "78":
+    {"type":"Iris-versicolor","meta":"a" },
+  "79":
+    {"type":"Iris-versicolor","meta":"b" },
+  "80":
+    {"type":"Iris-versicolor","meta":"c" },
+  "81":
+    {"type":"Iris-versicolor","meta":"a" },
+  "82":
+    {"type":"Iris-versicolor","meta":"b" },
+  "83":
+    {"type":"Iris-versicolor","meta":"c" },
+  "84":
+    {"type":"Iris-versicolor","meta":"a" },
+  "85":
+    {"type":"Iris-versicolor","meta":"b" },
+  "86":
+    {"type":"Iris-versicolor","meta":"c" },
+  "87":
+    {"type":"Iris-versicolor","meta":"a" },
+  "88":
+    {"type":"Iris-versicolor","meta":"b" },
+  "89":
+    {"type":"Iris-versicolor","meta":"c" },
+  "90":
+    {"type":"Iris-versicolor","meta":"a" },
+  "91":
+    {"type":"Iris-versicolor","meta":"b" },
+  "92":
+    {"type":"Iris-versicolor","meta":"c" },
+  "93":
+    {"type":"Iris-versicolor","meta":"a" },
+  "94":
+    {"type":"Iris-versicolor","meta":"b" },
+  "95":
+    {"type":"Iris-versicolor","meta":"c" },
+  "96":
+    {"type":"Iris-versicolor","meta":"a" },
+  "97":
+    {"type":"Iris-versicolor","meta":"b" },
+  "98":
+    {"type":"Iris-versicolor","meta":"c" },
+  "99":
+    {"type":"Iris-versicolor","meta":"a" },
+  "100":
+    {"type":"Iris-virginica","meta":"b" },
+  "101":
+    {"type":"Iris-virginica","meta":"c" },
+  "102":
+    {"type":"Iris-virginica","meta":"a" },
+  "103":
+    {"type":"Iris-virginica","meta":"b" },
+  "104":
+    {"type":"Iris-virginica","meta":"c" },
+  "105":
+    {"type":"Iris-virginica","meta":"a" },
+  "106":
+    {"type":"Iris-virginica","meta":"b" },
+  "107":
+    {"type":"Iris-virginica","meta":"c" },
+  "108":
+    {"type":"Iris-virginica","meta":"a" },
+  "109":
+    {"type":"Iris-virginica","meta":"b" },
+  "110":
+    {"type":"Iris-virginica","meta":"c" },
+  "111":
+    {"type":"Iris-virginica","meta":"a" },
+  "112":
+    {"type":"Iris-virginica","meta":"b" },
+  "113":
+    {"type":"Iris-virginica","meta":"c" },
+  "114":
+    {"type":"Iris-virginica","meta":"a" },
+  "115":
+    {"type":"Iris-virginica","meta":"b" },
+  "116":
+    {"type":"Iris-virginica","meta":"c" },
+  "117":
+    {"type":"Iris-virginica","meta":"a" },
+  "118":
+    {"type":"Iris-virginica","meta":"b" },
+  "119":
+    {"type":"Iris-virginica","meta":"c" },
+  "120":
+    {"type":"Iris-virginica","meta":"a" },
+  "121":
+    {"type":"Iris-virginica","meta":"b" },
+  "122":
+    {"type":"Iris-virginica","meta":"c" },
+  "123":
+    {"type":"Iris-virginica","meta":"a" },
+  "124":
+    {"type":"Iris-virginica","meta":"b" },
+  "125":
+    {"type":"Iris-virginica","meta":"c" },
+  "126":
+    {"type":"Iris-virginica","meta":"a" },
+  "127":
+    {"type":"Iris-virginica","meta":"b" },
+  "128":
+    {"type":"Iris-virginica","meta":"c" },
+  "129":
+    {"type":"Iris-virginica","meta":"a" },
+  "130":
+    {"type":"Iris-virginica","meta":"b" },
+  "131":
+    {"type":"Iris-virginica","meta":"c" },
+  "132":
+    {"type":"Iris-virginica","meta":"a" },
+  "133":
+    {"type":"Iris-virginica","meta":"b" },
+  "134":
+    {"type":"Iris-virginica","meta":"c" },
+  "135":
+    {"type":"Iris-virginica","meta":"a" },
+  "136":
+    {"type":"Iris-virginica","meta":"b" },
+  "137":
+    {"type":"Iris-virginica","meta":"c" },
+  "138":
+    {"type":"Iris-virginica","meta":"a" },
+  "139":
+    {"type":"Iris-virginica","meta":"b" },
+  "140":
+    {"type":"Iris-virginica","meta":"c" },
+  "141":
+    {"type":"Iris-virginica","meta":"a" },
+  "142":
+    {"type":"Iris-virginica","meta":"b" },
+  "143":
+    {"type":"Iris-virginica","meta":"c" },
+  "144":
+    {"type":"Iris-virginica","meta":"a" },
+  "145":
+    {"type":"Iris-virginica","meta":"b" },
+  "146":
+    {"type":"Iris-virginica","meta":"c" },
+  "147":
+    {"type":"Iris-virginica","meta":"a" },
+  "148":
+    {"type":"Iris-virginica","meta":"b" },
+  "149":
+    {"type":"Iris-virginica","meta":"c" }
+}
