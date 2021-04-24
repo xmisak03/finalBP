@@ -20,6 +20,7 @@ class MainFormPCoA extends Component {
         this.forceUpdate();
     };
 
+    // waiting for data in case of unifrac calculation
     waitingForData(id){
         let timer = setInterval(function() {  
             fetch(`http://localhost:3000/result/${id}`, {
@@ -45,6 +46,27 @@ class MainFormPCoA extends Component {
                     }
                 }); 
         }, 5000);
+    }
+
+    // after select data file
+    onSelect(e, fileType, props) {
+        console.log(fileType)
+        if (fileType == "biom") {
+            document.getElementById('metaFilePCoA').value = null
+            document.getElementById('metadataPartPCoA').style.display='none'
+            document.getElementById('coloringSectionPCoA').style.display='none'
+            document.getElementById('downloadPCoA').style.display='none'
+            props.metaFile = ''
+            props.file = ''
+        }      
+        else {
+            if (props.values.fileType == "biom") {
+                document.getElementById('coloringSectionPCoA').style.display='none'
+            }
+            document.getElementById('metadataPartPCoA').style.display='block'
+            document.getElementById('downloadPCoA').style.display='none'
+            props.file = ''
+        }
     }
 
     // send file without metadata to Python
@@ -116,6 +138,7 @@ class MainFormPCoA extends Component {
                 
                 // send parameters to Python
                 onSubmit={(values) => {
+                    // send data for calculation
                     if (state.button === 1) {
                         if (values.coloring.length === 0){
                             alert("CHOOSE DATAFILE, METADATAFILE AND METADATA FOR COLORING")
@@ -153,6 +176,8 @@ class MainFormPCoA extends Component {
                                 });
                         }
                     }
+
+                    // send data for saving PCx file
                     if (state.button === 2) {
                         if (values.nod === ""){
                             alert("ENTER A NUMBER OF DIMENSIONS")
@@ -186,6 +211,8 @@ class MainFormPCoA extends Component {
                             })
                         }
                     }
+
+                    // send data for saving matrix file
                     if (state.button === 3) {
                         alert("THE MATRIX IS BEING PREPARED...")
                         fetch("http://localhost:3000/matrix", {
@@ -265,9 +292,11 @@ class MainFormPCoA extends Component {
                                 className="select"
                                 name="fileType"
                                 id="fileType"
+                                ref = {(input)=> this.fileType = input}
                                 onChange={props.handleChange}
                                 onBlur={props.handleBlur}
                                 value={props.values.fileType}
+                                onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
                             >
                                 <option value="csv">csv/txt</option>
                                 <option value="json">json</option>

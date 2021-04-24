@@ -20,6 +20,27 @@ class MainForm extends Component {
         this.forceUpdate();
     };
 
+    // after select data file
+    onSelect(e, fileType, props) {
+        console.log(fileType)
+        if (fileType == "biom") {
+            document.getElementById('metaFile').value = null
+            document.getElementById('metadataPart').style.display='none'
+            document.getElementById('coloringSection').style.display='none'
+            document.getElementById('downloadPCA').style.display='none'
+            props.metaFile = ''
+            props.file = ''
+        }      
+        else {
+            if (props.values.fileType == "biom") {
+                document.getElementById('coloringSection').style.display='none'
+            }
+            document.getElementById('metadataPart').style.display='block'
+            document.getElementById('downloadPCA').style.display='none'
+            props.file = ''
+        }
+    }
+
     // send file to Python and set visibility of components
     onChange(e, props) {
         const formData = new FormData();
@@ -89,6 +110,7 @@ class MainForm extends Component {
 
                 // send parameters to Python
                 onSubmit={(values) => {
+                    // send data for calculation
                     if (state.button === 1) {
                         if (values.coloring.length === 0){
                             alert("CHOOSE DATAFILE, METADATAFILE AND METADATA FOR COLORING")
@@ -117,6 +139,8 @@ class MainForm extends Component {
                                 });
                         }
                     }
+
+                    // send data for saving PCx file
                     if (state.button === 2) {
                         if (values.nod === ""){
                             alert("ENTER A NUMBER OF DIMENSIONS")
@@ -192,9 +216,11 @@ class MainForm extends Component {
                             className="select"
                             name="fileType"
                             id="fileType"
+                            ref = {(input)=> this.fileType = input}
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
                             value={props.values.fileType}
+                            onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
                         >
                             <option value="csv">csv/txt</option>
                             <option value="json">json</option>
