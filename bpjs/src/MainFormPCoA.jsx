@@ -55,6 +55,7 @@ class MainFormPCoA extends Component {
         console.log(fileType)
         if (fileType == "biom") {
             document.getElementById('metaFilePCoA').value = null
+            document.getElementById('filePCoA').value= null
             document.getElementById('metadataPartPCoA').style.display='none'
             document.getElementById('coloringSectionPCoA').style.display='none'
             document.getElementById('downloadPCoA').style.display='none'

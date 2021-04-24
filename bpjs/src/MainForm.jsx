@@ -24,6 +24,7 @@ class MainForm extends Component {
     onSelect(e, fileType, props) {
         if (fileType == "biom") {
             document.getElementById('metaFile').value = null
+            document.getElementById('file').value= null
             document.getElementById('metadataPart').style.display='none'
             document.getElementById('coloringSection').style.display='none'
             document.getElementById('downloadPCA').style.display='none'
