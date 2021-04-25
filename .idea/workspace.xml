@@ -24,13 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weightedUnifrac.py" beforeDir="false" afterPath="$PROJECT_DIR$/weightedUnifrac.py" afterDir="false" />
-    </list>
+    <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -406,7 +400,7 @@
       <workItem from="1618943836592" duration="7570000" />
       <workItem from="1618955791677" duration="1504000" />
       <workItem from="1618959373800" duration="51501000" />
-      <workItem from="1619259133029" duration="18806000" />
+      <workItem from="1619259133029" duration="19075000" />
     </task>
     <task id="LOCAL-00001" summary="unifrac">
       <created>1619043127439</created>
@@ -415,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619043127439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update send mail">
+      <created>1619304065107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619304065107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +436,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unifrac" />
-    <option name="LAST_COMMIT_MESSAGE" value="unifrac" />
+    <MESSAGE value="update send mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="update send mail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618961059022">
@@ -458,25 +460,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1618955765041" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1619296914182">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1619304070582">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619304070582" />
     <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1619296914182">
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1619304070582">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619304070582" />
     <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1619296914181">
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1619304070582">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914181" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619304070582" />
     <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1619296914182">
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1619304070582">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619296914182" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619304070582" />
     <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617483004075" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1619215186888">
       <screen x="0" y="0" width="1536" height="834" />
@@ -502,6 +504,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="345" y="50" key="SettingsEditor/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619126103407" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1619304099888">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1080@0.0.1536.834" timestamp="1619304099888" />
     <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1618869921298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

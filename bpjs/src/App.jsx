@@ -270,12 +270,12 @@ useEffect(() => {
       </div>
 
       <div className="plotButtons">
-          <Button id="pcx" className="pcx" size="lg" onClick={pcxGraph}><strong>PCx graph</strong></Button>    
+          <Button id="pcx" className="pcx" size="lg" onClick={pcxGraph}><strong>Percentage of Variance</strong></Button>    
           <Button id="result" className="result" size="lg" onClick={resultGraph}><strong>Result</strong></Button>
       </div>
       <div className="plotButtons" id="legend">
-          <Button id="showLegend" className="showLegend" size="lg" onClick={showLegendButton}><strong>Show legend</strong></Button> 
-          <Button id="hideLegend" className="hideLegend" size="lg" onClick={hideLegendButton}><strong>Hide legend</strong></Button>    
+          <Button id="showLegend" className="showLegend" size="lg" onClick={showLegendButton}><strong>Show Legend</strong></Button> 
+          <Button id="hideLegend" className="hideLegend" size="lg" onClick={hideLegendButton}><strong>Hide Legend</strong></Button>    
       </div>
       <div className="graph">
         <div className="dataPlot" id="dataPlot">
