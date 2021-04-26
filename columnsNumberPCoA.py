@@ -7,7 +7,7 @@ def columnsNumberPCoA(dm):
     :param dm: distance matrix
     :return: number of columns
     """
-    col = int(math.sqrt(dm.size))
+    col = min(dm.shape[0], dm.shape[1])
     if col > 20:
         col = 20
     prePcoa = pcoa(dm, number_of_dimensions=col)
