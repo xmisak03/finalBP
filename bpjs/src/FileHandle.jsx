@@ -106,7 +106,7 @@ export const handleFileChosen = (e, file, pro) => {
             fileReader.readAsText(file);
         }
         else if (file.name.toString().indexOf(".csv") > -1 || file.name.toString().indexOf(".data") > -1
-                || file.name.toString().indexOf(".txt") > -1){
+                || file.name.toString().indexOf(".txt") > -1 || file.name.toString().indexOf(".tsv") > -1){
             fileReader.onloadend = handleFileReadCsv;
             fileReader.readAsText(file);
         }

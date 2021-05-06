@@ -318,7 +318,7 @@ class MainFormPCoA extends Component {
                                 value={props.values.fileType}
                                 onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
                             >
-                                <option value="csv">csv/txt</option>
+                                <option value="csv">csv/txt/tsv</option>
                                 <option value="json">json</option>
                                 <option value="excel">excel</option>
                                 <option value="biom">biom</option>
@@ -355,7 +355,7 @@ class MainFormPCoA extends Component {
                                     onBlur={props.handleBlur}
                                     value={props.values.metaFileType}
                                 >
-                                    <option value="csv">csv/txt</option>
+                                    <option value="csv">csv/txt/tsv</option>
                                     <option value="json">json</option>
                                     <option value="excel">excel</option>
                                 </select>

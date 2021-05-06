@@ -14,7 +14,7 @@ import {saveAs} from "file-saver";
 const state = {
     button: 1
 };
-  
+
 class MainForm extends Component {
     update = () => {
         this.forceUpdate();
@@ -222,7 +222,7 @@ class MainForm extends Component {
                             value={props.values.fileType}
                             onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
                         >
-                            <option value="csv">csv/txt</option>
+                            <option value="csv">csv/txt/tsv</option>
                             <option value="json">json</option>
                             <option value="excel">excel</option>
                             <option value="biom">biom</option>
@@ -253,7 +253,7 @@ class MainForm extends Component {
                                 onBlur={props.handleBlur}
                                 value={props.values.metaFileType}
                             >
-                                <option value="csv">csv/txt</option>
+                                <option value="csv">csv/txt/tsv</option>
                                 <option value="json">json</option>
                                 <option value="excel">excel</option>
                             </select>
@@ -275,7 +275,7 @@ class MainForm extends Component {
                     <label className="noteColoring">
                         Below, select metadata for coloring, please.
                     </label>
-
+                    
                     <div id="coloringSection">
                         {header.map(element => (
                             <div key={element} className="metadata">
