@@ -8,8 +8,8 @@ def columnsNumberPCoA(dm):
     :return: number of columns
     """
     col = min(dm.shape[0], dm.shape[1])
-    if col > 20:
-        col = 20
+    if col > 50:
+        col = 50
     prePcoa = pcoa(dm, number_of_dimensions=col)
     colGraph = prePcoa.proportion_explained
 

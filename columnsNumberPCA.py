@@ -8,8 +8,8 @@ def columnsNumberPCA(dataset):
     """
     col = min(dataset.shape[0], dataset.shape[1])
     print(col)
-    if col > 20:
-        col = 20
+    if col > 50:
+        col = 50
 
     prePca = PCA(n_components=col)
     prePca.fit(dataset)

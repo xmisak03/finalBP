@@ -97,7 +97,7 @@ class MainForm extends Component {
                 coloring - metadata for coloring
                 metaFileType - type of metadata file
                 metaFile - metadata file
-                nod - number of dimensions for column graph
+                nod - number of principal components for column graph
                 downloadType - type of file for downloading data for column graph
                 matrixType - type of file for downloading matrix
                 matrix - method for matrix calculation
@@ -113,7 +113,7 @@ class MainForm extends Component {
                     // send data for calculation
                     if (state.button === 1) {
                         if (values.coloring.length === 0){
-                            alert("CHOOSE DATAFILE, METADATAFILE AND METADATA FOR COLORING")
+                            alert("CHOOSE DATAFILE, METADATAFILE, AND METADATA FOR COLORING")
                         }
                         else{
                             alert("THE DATA IS BEING PROCESSED...")
@@ -143,10 +143,10 @@ class MainForm extends Component {
                     // send data for saving PCx file
                     if (state.button === 2) {
                         if (values.nod === ""){
-                            alert("ENTER A NUMBER OF DIMENSIONS")
+                            alert("ENTER A NUMBER OF PRINCIPAL COMPONENTS")
                         }
                         else if (values.nod < 1 || values.nod > store.getState().base.maxPCx){
-                            alert("NUMBER OF DIMENSIONS OUT OF RANGE")
+                            alert("NUMBER OF PRINCIPAL COMPONENTS OUT OF RANGE")
                         }
                         else{
                             alert("THE TABLE IS BEING PREPARED...")
@@ -170,7 +170,7 @@ class MainForm extends Component {
                                     saveAs(blob, "table.xlsx");
                             })
                             .catch(error => {
-                                alert("SAVING UNSUCCESSFUL")
+                                alert("SAVING FAILD")
                             })
                         }
                     }
@@ -179,7 +179,7 @@ class MainForm extends Component {
             {(props) => (
                 <Form onSubmit={props.handleSubmit}>
                     <label className="title">
-                        Dimension
+                        Dimenionality
                     </label>
 
                     <div>
@@ -196,18 +196,13 @@ class MainForm extends Component {
                         </select>
                     </div>
 
-                    <div>
-                        <label className="warning">
-                            FILE HAS TO CONTAIN HEADER AND BE IN PROPER FORMAT!
-                        </label>
-                    </div>
-
                     <label className="title">
-                        Data file
+                        Data for analysis
                     </label>
                     <div>
                         <label className="noteColoring">
-                            In the case of biom format also with metadata, otherwise without it.
+                            This file should contain a header and the first column should be a column with an index.
+                            In the case of biom-format also with metadata, otherwise without it.
                         </label> 
                     </div>
                     
@@ -245,6 +240,11 @@ class MainForm extends Component {
                             Metadata file
                         </label>
                         <div>
+                            <label className="noteColoring">
+                                This file should contain a header.
+                            </label> 
+                        </div>
+                        <div>
                             <select
                                 className="select"
                                 name="metaFileType"
@@ -273,7 +273,7 @@ class MainForm extends Component {
                     </div>
 
                     <label className="noteColoring">
-                        Below, select metadata for coloring, please.
+                        Below, after the selection of the metadata file, select metadata for coloring, please.
                     </label>
                     
                     <div id="coloringSection">
@@ -306,7 +306,7 @@ class MainForm extends Component {
                         <div>
                             <label>
                                 If you want to download table of transformation data according to a calculation in previous step, 
-                                enter a number of dimensions from range (1, {store.getState().base.maxPCx}), please.
+                                enter a number of first X principal components from range (1, {store.getState().base.maxPCx}), please.
                             </label>
                         </div>
                         

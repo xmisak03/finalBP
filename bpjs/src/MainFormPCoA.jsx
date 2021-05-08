@@ -139,7 +139,7 @@ class MainFormPCoA extends Component {
                 coloring - metadata for coloring
                 metaFileType - type of metadata file
                 metaFile - metadata file
-                nod - number of dimensions for column graph
+                nod - number of principal components for column graph
                 downloadType - type of file for downloading data for column graph
                 matrixType - type of file for downloading matrix
                 matrix - method for matrix calculation
@@ -155,7 +155,7 @@ class MainFormPCoA extends Component {
                     // send data for calculation
                     if (state.button === 1) {
                         if (values.coloring.length === 0){
-                            alert("CHOOSE DATAFILE, METADATAFILE AND METADATA FOR COLORING")
+                            alert("CHOOSE DATAFILE, METADATAFILE, AND METADATA FOR COLORING")
                         }
                         else{
                             if (values.matrix != "bray_curtis"){
@@ -200,10 +200,10 @@ class MainFormPCoA extends Component {
                     // send data for saving PCx file
                     if (state.button === 2) {
                         if (values.nod === ""){
-                            alert("ENTER A NUMBER OF DIMENSIONS")
+                            alert("ENTER A NUMBER OF PRINCIPAL COMPONENTS")
                         }
                         else if (values.nod < 1 || values.nod > store.getState().base.colGraph.length){
-                            alert("NUMBER OF DIMENSIONS OUT OF RANGE")
+                            alert("NUMBER OF PRINCIPAL COMPONENTS OUT OF RANGE")
                         }
                         else{
                             alert("THE TABLE IS BEING PREPARED...")
@@ -227,7 +227,7 @@ class MainFormPCoA extends Component {
                                     saveAs(blob, "table.xlsx");
                             })
                             .catch(error => {
-                                alert("SAVING UNSUCCESSFUL")
+                                alert("SAVING FAILD")
                             })
                         }
                     }
@@ -263,7 +263,7 @@ class MainFormPCoA extends Component {
                 <Form onSubmit={props.handleSubmit}>
                     <div id="PCoAForm">
                         <label className="title">
-                            Dimension
+                            Dimensionality
                         </label>
                         <div>
                             <select
@@ -280,7 +280,7 @@ class MainFormPCoA extends Component {
                         </div>
 
                         <label className="title">
-                            Method for matrix calculation
+                            Method for distance matrix calculation
                         </label>
                         <div>
                             <select
@@ -297,15 +297,16 @@ class MainFormPCoA extends Component {
                             </select>
                         </div>
 
-                        <div>
-                            <label className="warning">
-                                FILE HAS TO CONTAIN HEADER AND BE IN PROPER FORMAT!
-                            </label>
-                        </div>
-
                         <label className="title">
-                            Data for matrix calculation
+                            Data for analysis
                         </label>
+                        <div>
+                            <label className="noteColoring">
+                                This file should contain a header and the first column should be a column with an index.
+                                In the case of biom-format also with metadata, otherwise without it.
+                                In the case of UniFrac methods, indexes should be sequences. 
+                            </label> 
+                        </div>
 
                         <div>
                             <select
@@ -342,7 +343,7 @@ class MainFormPCoA extends Component {
                             </label>
                             <div>
                                 <label className="noteColoring">
-                                    In the case of biom format also with metadata, otherwise without it.
+                                    This file should contain a header.
                                 </label> 
                             </div>
 
@@ -374,7 +375,7 @@ class MainFormPCoA extends Component {
                         </div>                    
                         
                         <label className="noteColoring">
-                            Below, select metadata for coloring, please.
+                            Below, after the selection of the metadata file, select metadata for coloring, please.
                         </label>
 
                         <div id="coloringSectionPCoA">
@@ -408,7 +409,7 @@ class MainFormPCoA extends Component {
 
                         <div>
                             <label>
-                                Select a file type for downloading distance matrix according to a calculation in previous step.
+                                Select a file type for downloading distance matrix according to a calculation in the previous step.
                             </label>
                         </div>
                         
@@ -434,7 +435,7 @@ class MainFormPCoA extends Component {
 
                         <label>
                             If you want to download table of transformation data according to a calculation in previous step, 
-                            enter a number of dimensions from range (1, {store.getState().base.maxPCx}), please.
+                            enter a number of first X principal components from range (1, {store.getState().base.maxPCx}), please.
                         </label>
 
                         <input type="text" id="nod" className="input" onChange={props.handleChange}/>

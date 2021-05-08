@@ -67,7 +67,7 @@ def send_mail_response(id):
 @app.route('/result/<id>', methods = ['POST'])
 def send_unifrac(id):
     """
-    send json response after finish PCA/PCoA with unifrac
+    send json response after finish PCoA with unifrac
     :param id: id of request
     :return: response json for js
     """
