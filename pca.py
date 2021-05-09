@@ -53,5 +53,4 @@ def pca_do(params):
 
     except Exception as e:
         print("INVALID FORMAT OR TYPE OF FILE")
-        print(e)
         return None

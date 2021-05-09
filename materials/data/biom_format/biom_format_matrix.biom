@@ -1,55 +1,42 @@
 {
     "id":null,
-    "format": "Biological Observation Matrix 0.9.1-dev",
-    "format_url": "http://biom-format.org/documentation/format_versions/biom-1.0.html",
     "type": "OTU table",
     "generated_by": "QIIME revision 1.4.0-dev",
-    "date": "2011-12-19T19:00:00",
     "rows":[
-            {"id":"AACCTCAAAAGTAGGGAAGCCGATAATGCAGCCTTCAGTCTGTGGCCAAACGCCCAAGAGTCCCTGGAAAATCACTGGTGTAAGTTCATGAGTACAAAAGCTGAAGAACTTGGAGTCTGATGTTTGAGGGCAGGAAGCATCTGGTAGGGAGAAAGATGGAGACCAGAAGACTCAGCCAGTCTACTGTTTCCATGCCTGCTTTTAG", "metadata":null},
-            {"id":"AACTGGGCGTAAAGGGCACGCAGGCGGTGACTTAAGTGAGATGTGAAAGCCCCGAGCTTAACTTGGGAATTGCATTTCATACTGGGTCGCTAGAGTACTTTAGGGAGGGGTAGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAATACCGAAGGCGAAGGCAGCCCCTTGGGAATGTACTGACGCTCATGTGCGAAAGCGTGGG", "metadata":null},
-            {"id":"AATCGTTATAAAATTCCCTTTGGAAGGAATATATTCTAATTGATGATGTTGACAAAAGTCTTCATAACGTCTTATTTCTACTCGATTATTTTCAGCTACTTTCTCAACAAATTCATCGTCATTCATTACGGCAACTGCAGCGGCTAATGCCAAAGAATTACAGTTAAATGGCTGTCGAACTCGATTTAATAAATCT", "metadata":null},
-            {"id":"AAGAAGCAATGACGGTATCCGGGGAATAAGCATCGGCTAACTCTGTGCCAGCAGCCGCGGTAAGACAGAGGATGCAAGCGTTATCCGGAATGATTGGGCGTAAAGCGTCTGTAGGTGGCTTTTTAAGTTCGCCGTCAAATCCCAGGGCTCAACCCTGGACAGGCGGTGGAAACTACCAAGCTGGAGTACGGTAGGGGCAGAGGGAATTTCCGGTGGAGCGGTGAAATGCGTAGAGATCGGAAAGAACACCAACGGCGAAAGCACTCTGCTGGGCCGACACTGACACTGAGAGACGAAAGCTAGGG", "metadata":null},
-            {"id":"AATAAAGTATCCTACGTGTAGGATTTTGTATGTACCGTATGAATAAGCATCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGATGCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGCAGACGGGAGATTAAGTCAGTTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGATACTGGTTTCCTTGAGTGCAGTTGAGGCAGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACCCCGATTGCGAAGGCAGCTTGCTAAACTGTAACTGACGTTCATGCTCGAAAGTGTGGG", "metadata":null}
+            {"id":"AACCTCAAAA", "metadata":null},
+            {"id":"AACTGG", "metadata":null},
+            {"id":"AATCGTTATAAAA", "metadata":null},
+            {"id":"AAGAAGCAATGACGGG", "metadata":null},
+            {"id":"AATAAAGT", "metadata":null}
         ],
     "columns": [
             {"id":"Sample1", "metadata":{
-                             "BarcodeSequence":"CGCTTATCGAGA",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"gut",
-                             "Description":"human gut"}},
+                             "meta1":"CGCT",
+                             "meta2":"CATG",
+                             "meta3":"0",
+                             "meta4":"false"}},
     	    {"id":"Sample2", "metadata":{
-                             "BarcodeSequence":"CATACCAGTAGC",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"gut",
-                             "Description":"human gut"}},
+                             "meta1":"CGCA",
+                             "meta2":"CATG",
+                             "meta3":"0",
+                             "meta4":"true"}},
     	    {"id":"Sample3", "metadata":{
-                             "BarcodeSequence":"CTCTCTACCTGT",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"gut",
-                             "Description":"human gut"}},
+                             "meta1":"CGCT",
+                             "meta2":"CAAG",
+                             "meta3":"1",
+                             "meta4":"false"}},
     	    {"id":"Sample4", "metadata":{
-                             "BarcodeSequence":"CTCTCGGCCTGT",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"skin",
-                             "Description":"human skin"}},
-    	    {"id":"Sample5", "metadata":{
-                             "BarcodeSequence":"CTCTCTACCAAT",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"skin",
-                             "Description":"human skin"}},
-    	    {"id":"Sample6", "metadata":{
-                             "BarcodeSequence":"CTAACTACCAAT",
-                             "LinkerPrimerSequence":"CATGCTGCCTCCCGTAGGAGT",
-                             "BODY_SITE":"skin",
-                             "Description":"human skin"}}
+                             "meta1":"CACT",
+                             "meta2":"CATG",
+                             "meta3":"0",
+                             "meta4":"true"}}
             ],
     "matrix_type": "dense",
     "matrix_element_type": "int",
-    "shape": [5,6],
-    "data":  [[0,0,1,0,0,0],
-              [5,1,0,2,3,1],
-              [0,0,1,4,2,0],
-              [2,1,1,0,0,1],
-              [0,1,1,0,0,0]]
+    "shape": [5,4],
+    "data":  [[0,0,1,0],
+              [5,1,0,2],
+              [0,0,1,4],
+              [2,1,1,0],
+              [0,1,1,0]]
 }

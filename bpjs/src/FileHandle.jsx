@@ -44,7 +44,7 @@ const handleFileReadBiom = (e) => {
         var content = fileReader.result;
         var obj = JSON.parse(content)
         for (const item in obj.columns){
-            metadata = obj.columns[item].metadata;
+            metadata = obj.columns[item]?.metadata;
             for (const meta in metadata) {
                 if (header.indexOf(meta) < 0){
                     header.push(meta)
@@ -52,7 +52,7 @@ const handleFileReadBiom = (e) => {
             }
         }
         for (const item in obj.rows){
-            metadata = obj.columns[item].metadata;
+            metadata = obj.columns[item]?.metadata;
             for (const meta in metadata) {
                 if (header.indexOf(meta) < 0){
                     header.push(meta)
@@ -61,7 +61,7 @@ const handleFileReadBiom = (e) => {
         } 
     }
     catch(error){
-        alert("WRONG FORMAT BIOM FILE");
+        alert("WRONG FORMAT BIOM FILE " + error);
     }    
 };
 
