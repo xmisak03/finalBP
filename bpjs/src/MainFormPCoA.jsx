@@ -19,6 +19,8 @@ const state = {
     button: 1
 };
 
+let sendMail = false
+
 class MainFormPCoA extends Component {
     update = () => {
         this.forceUpdate();
@@ -54,7 +56,6 @@ class MainFormPCoA extends Component {
 
     // after select data file type
     onSelect(e, fileType, props) {
-        console.log(fileType)
         if (fileType == "biom") {
             document.getElementById('metaFilePCoA').value = null
             document.getElementById('filePCoA').value= null
@@ -161,41 +162,48 @@ class MainFormPCoA extends Component {
                         }
                         else{
                             if (values.matrix != "bray_curtis"){
-                                while (values.mail == "") {
-                                    mail = this.getMail()
-                                    if (mail != "") {
-                                        values.mail = mail
-                                    }
+                                mail = this.getMail()
+                                if (mail != "") {
+                                    values.mail = mail
+                                    alert("The link with the result will be sent to your mail " + mail)
+                                    sendMail = true
                                 }
-                                values.mail = prompt("It may take a while. Please enter your mail for results:", "");
+                                else {
+                                    alert("Invalid format of mail, try it again.")
+                                    sendMail = false
+                                }
+
                             }
                             else {
                                 alert("THE DATA IS BEING PROCESSED...")
+                                sendMail = true
                             }
                             
-                            fetch("http://localhost:3000/api", {
-                                method: "POST",      
-                                headers: {
-                                    'Content-Type': 'application/json'
-                                },
-                                body: JSON.stringify(values),
-                            }).then((response) => 
-                                // get response from Python
-                                response.json()).then((data) => {
-                                    if (data === null){
-                                        alert("WRONG INPUT DATA OR FILE");
-                                    }
-                                    else if(Object.keys(data).length == 1){
-                                        this.waitingForData(data.id)
-                                    }
-                                    else{
-                                        document.getElementById('nod').value= null
-                                        document.getElementById('downloadPCoA').style.display='block'
-                                        document.getElementById('showLegend').style.display = 'none'
-                                        document.getElementById('hideLegend').style.display='block'
-                                        store.dispatch({ type: "storeData", value: data });
-                                    }
-                                });
+                            if (sendMail){
+                                fetch("http://localhost:3000/api", {
+                                    method: "POST",      
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify(values),
+                                }).then((response) => 
+                                    // get response from Python
+                                    response.json()).then((data) => {
+                                        if (data === null){
+                                            alert("WRONG INPUT DATA OR FILE");
+                                        }
+                                        else if(Object.keys(data).length == 1){
+                                            this.waitingForData(data.id)
+                                        }
+                                        else{
+                                            document.getElementById('nod').value= null
+                                            document.getElementById('downloadPCoA').style.display='block'
+                                            document.getElementById('showLegend').style.display = 'none'
+                                            document.getElementById('hideLegend').style.display='block'
+                                            store.dispatch({ type: "storeData", value: data });
+                                        }
+                                    });
+                            }
                         }
                     }
 
