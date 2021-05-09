@@ -220,7 +220,7 @@ class MainFormPCoA extends Component {
                             )
                             .then(function(blob) {
                                 if (values.downloadType === 'csv')
-                                    saveAs(blob, "table.data");
+                                    saveAs(blob, "table.csv");
                                 else if (values.downloadType === 'json')
                                     saveAs(blob, "table.json");
                                 else if (values.downloadType === 'excel')
@@ -247,7 +247,7 @@ class MainFormPCoA extends Component {
                         )
                         .then(function(blob) {
                             if (values.matrixType === 'csv')
-                                saveAs(blob, "matrix.data");
+                                saveAs(blob, "matrix.csv");
                             else if (values.matrixType === 'json')
                                 saveAs(blob, "matrix.json");
                             else if (values.matrixType === 'excel')
@@ -321,7 +321,7 @@ class MainFormPCoA extends Component {
                             >
                                 <option value="csv">csv/txt/tsv</option>
                                 <option value="json">json</option>
-                                <option value="excel">excel</option>
+                                <option value="excel">xlsx</option>
                                 <option value="biom">biom</option>
                             </select>
                         </div>
@@ -358,7 +358,7 @@ class MainFormPCoA extends Component {
                                 >
                                     <option value="csv">csv/txt/tsv</option>
                                     <option value="json">json</option>
-                                    <option value="excel">excel</option>
+                                    <option value="excel">xlsx</option>
                                 </select>
                             </div>
                             <div>                
@@ -424,7 +424,7 @@ class MainFormPCoA extends Component {
                             >
                                 <option value="csv">csv</option>
                                 <option value="json">json</option>
-                                <option value="excel">excel</option>
+                                <option value="excel">xlsx</option>
                             </select>
                         </div>
                         <div>
@@ -451,7 +451,7 @@ class MainFormPCoA extends Component {
                             >
                                 <option value="csv">csv</option>
                                 <option value="json">json</option>
-                                <option value="excel">excel</option>
+                                <option value="excel">xlsx</option>
                             </select>
                         </div>
                         

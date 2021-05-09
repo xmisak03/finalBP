@@ -26,13 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columnsNumberPCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/columnsNumberPCA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columnsNumberPCoA.py" beforeDir="false" afterPath="$PROJECT_DIR$/columnsNumberPCoA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +410,7 @@
       <workItem from="1620290831447" duration="537000" />
       <workItem from="1620303109075" duration="600000" />
       <workItem from="1620303971628" duration="1280000" />
-      <workItem from="1620476724854" duration="4227000" />
+      <workItem from="1620476724854" duration="4826000" />
     </task>
     <task id="LOCAL-00001" summary="unifrac">
       <created>1619043127439</created>
