@@ -11,6 +11,8 @@ import {store} from './index.js'
 
 import {saveAs} from "file-saver";
 
+import ReactTooltip from 'react-tooltip';
+
 const state = {
     button: 1
 };
@@ -196,16 +198,22 @@ class MainForm extends Component {
                         </select>
                     </div>
 
+                    <ReactTooltip id="fileTipPCA" place="top" effect="solid" >
+                        <p>This file should contain a header and the first column should be a column with an index.</p>
+                        <p>In the case of biom-format this file should contains also metadata.</p> 
+                        <p>Otherwise, there are only data for principal components calculation.</p>
+                    </ReactTooltip>
+
                     <label className="title">
                         Data for analysis
                     </label>
+
                     <div>
-                        <label className="noteColoring">
-                            This file should contain a header and the first column should be a column with an index.
-                            In the case of biom-format also with metadata, otherwise without it.
-                        </label> 
+                        <label className="noteColoring" data-tip data-for="fileTipPCA">
+                            More info about file format.
+                        </label>
                     </div>
-                    
+                                                           
                     <div>
                         <select
                             className="select"
@@ -235,15 +243,21 @@ class MainForm extends Component {
                         />
                     </div>
 
+                    <ReactTooltip id="metafileTipPCA" place="top" effect="solid" >
+                        <p>This file should contain a header.</p>
+                    </ReactTooltip>
+
                     <div className="metadataPart" id="metadataPart">
                         <label className="title">
                             Metadata file
                         </label>
+
                         <div>
-                            <label className="noteColoring">
-                                This file should contain a header.
-                            </label> 
+                            <label className="noteColoring" data-tip data-for="metafileTipPCA">
+                                More info about file format.
+                            </label>
                         </div>
+
                         <div>
                             <select
                                 className="select"

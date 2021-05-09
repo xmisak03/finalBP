@@ -11,6 +11,8 @@ import {store} from './index.js'
 
 import {saveAs} from "file-saver";
 
+import ReactTooltip from 'react-tooltip';
+
 let mail
 
 const state = {
@@ -297,15 +299,21 @@ class MainFormPCoA extends Component {
                             </select>
                         </div>
 
+                        <ReactTooltip id="fileTipPCoA" place="top" effect="solid" >
+                            <p>This file should contain a header and the first column should be a column with an index.</p>
+                            <p>In the case of biom-format this file should contains also metadata.</p> 
+                            <p>Otherwise, there are only data for principal components calculation.</p>
+                            <p>In the case of UniFrac methods, indexes should be sequences.</p>
+                        </ReactTooltip>
+
                         <label className="title">
                             Data for analysis
                         </label>
+
                         <div>
-                            <label className="noteColoring">
-                                This file should contain a header and the first column should be a column with an index.
-                                In the case of biom-format also with metadata, otherwise without it.
-                                In the case of UniFrac methods, indexes should be sequences. 
-                            </label> 
+                            <label className="noteColoring" data-tip data-for="fileTipPCoA">
+                                More info about file format.
+                            </label>
                         </div>
 
                         <div>
@@ -341,10 +349,14 @@ class MainFormPCoA extends Component {
                             <label className="title">
                                 Metadata file
                             </label>
+
+                            <ReactTooltip id="metafileTipPCoA" place="top" effect="solid" >
+                                <p>This file should contain a header.</p>
+                            </ReactTooltip>
                             <div>
-                                <label className="noteColoring">
-                                    This file should contain a header.
-                                </label> 
+                                <label className="noteColoring" data-tip data-for="metafileTipPCoA">
+                                    More info about file format.
+                                </label>
                             </div>
 
                             <div>

@@ -29,6 +29,7 @@
     "react-responsive-navbar-overlay": "^1.1.2",
     "react-scripts": "^4.0.1",
     "react-select": "^4.3.0",
+    "react-tooltip": "^4.2.19",
     "reactstrap": "^8.4.1",
     "redux": "^4.0.5",
     "reselect": "^4.0.0",

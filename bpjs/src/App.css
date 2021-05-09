@@ -78,6 +78,8 @@
   color: black;
   font-weight: 700;
   font-size: 15px;
+  border-color: black;
+  width: 50%;
 }
 
 .metadataPart {
