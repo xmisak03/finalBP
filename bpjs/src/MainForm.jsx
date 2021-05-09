@@ -217,9 +217,9 @@ class MainForm extends Component {
                             value={props.values.fileType}
                             onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
                         >
-                            <option value="csv">csv/txt/tsv</option>
+                            <option value="csv">csv/data/tsv/txt</option>
                             <option value="json">json</option>
-                            <option value="excel">xlsx</option>
+                            <option value="excel">xlsx/xlsm/xltx/xltm</option>
                             <option value="biom">biom</option>
                         </select>
                     </div>
@@ -253,9 +253,9 @@ class MainForm extends Component {
                                 onBlur={props.handleBlur}
                                 value={props.values.metaFileType}
                             >
-                                <option value="csv">csv/txt/tsv</option>
+                                <option value="csv">csv/data/tsv/txt</option>
                                 <option value="json">json</option>
-                                <option value="excel">xlsx</option>
+                                <option value="excel">xlsx/xlsm/xltx/xltm</option>
                             </select>
                         </div>
 
