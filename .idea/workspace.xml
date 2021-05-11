@@ -27,16 +27,9 @@
     <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/ColoringData.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/data/biom_format/biom_format_matrix.biom" beforeDir="false" afterPath="$PROJECT_DIR$/materials/data/biom_format/biom_format_matrix.biom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/16srrna.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/16srrna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/base_com.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/base_com.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/bray_curtis.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/bray_curtis.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/communication_DB_API.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/communication_DB_API.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/communication_UI_API.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/communication_UI_API.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/pcoa.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/pcoa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/text/unifrac_tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/unifrac_tree.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

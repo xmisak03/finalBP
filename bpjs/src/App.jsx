@@ -13,7 +13,6 @@ import { createSelector } from "reselect";
 import { useSelector } from "react-redux";
 
 import { header } from "./FileHandle.jsx";
-import { coloring } from "./ColoringData";
 
 import {store} from './index.js'
 
@@ -192,7 +191,7 @@ useEffect(() => {
     document.getElementById('legend').style.display='none'
   }
 
-  // to show resuly graph
+  // to show result graph
   function resultGraph () {
     document.getElementById('dataPlot').style.display='block'
     document.getElementById('colPlot').style.display='none'
@@ -220,13 +219,11 @@ useEffect(() => {
   }
 
   // function after click pca button (disable pcoa part)
-  function pcaform() {
+  function pcaForm() {
     for (key in header) {
       delete header[key];
     }
-    for (key in coloring) {
-      delete coloring[key];
-    }
+    
     resetAll()
 
     document.getElementById('PCA').style.display='block'
@@ -236,13 +233,12 @@ useEffect(() => {
   }
 
   // function after click pcoa button (disable pca part)
-  function pcoaform() {
+  function pcoaForm() {
+    
     for (key in header) {
       delete header[key];
     }
-    for (key in coloring) {
-      delete coloring[key];
-    }
+    
     resetAll()
 
     document.getElementById('PCoA').style.display='block'
@@ -258,8 +254,8 @@ useEffect(() => {
         <Button id="newCalculation" className="newCalculation" size="lg" onClick={newCalculation}>
           <strong>NEW CALCULATION</strong>
         </Button> 
-        <Button id="bPCA" className="buttonpca" size="lg" onClick={pcaform}><strong>PCA</strong></Button>    
-        <Button id="bPCoA" className="buttonpcoa" size="lg" onClick={pcoaform}><strong>PCoA</strong></Button>
+        <Button id="bPCA" className="buttonpca" size="lg" onClick={pcaForm}><strong>PCA</strong></Button>    
+        <Button id="bPCoA" className="buttonpcoa" size="lg" onClick={pcoaForm}><strong>PCoA</strong></Button>
       </div>
 
       <div id="PCA" name="PCA" className="formpca">
