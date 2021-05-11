@@ -33,7 +33,7 @@ def customeFilter(data, index, color):
 def preparingData(params, id):
     """
     prepare data for sending response to js
-    :param params: class FileFormat() - there are saved all important data for analysis
+    :param params: class JSONformat() - there are saved all important data for analysis
     :return: x coordinates, y coordinates, z coordinates, e - ratio of variance explained by each counted component,
     colGraph - proportion explained for bar chart, category - categories for plot, maxPCx - max number for PCA/PCoA
     """

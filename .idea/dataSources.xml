@@ -13,5 +13,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\silvi\Documents\FIT\pyvenv\_database.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="database [2]" uuid="81841890-8859-41d1-b2a7-116fede1fead">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\silvi\Documents\FIT\BP\database.db</jdbc-url>
+    </data-source>
   </component>
 </project>

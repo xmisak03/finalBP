@@ -208,12 +208,12 @@ class MainFormPCoA extends Component {
                         }
                     }
 
-                    // send data for saving PCx file
+                    // send data for saving transformed data file
                     if (state.button === 2) {
                         if (values.numberOfPC === ""){
                             alert("ENTER A NUMBER OF PRINCIPAL COMPONENTS")
                         }
-                        else if (values.numberOfPC < 1 || values.numberOfPC > store.getState().base.colGraph.length){
+                        else if (values.numberOfPC < 1 || values.numberOfPC > store.getState().base.maxPCx){
                             alert("NUMBER OF PRINCIPAL COMPONENTS OUT OF RANGE")
                         }
                         else{

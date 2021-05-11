@@ -1,14 +1,13 @@
-from openDataFile import *
-from openMetadataFile import *
-from countPCAtable import *
-from columnsNumberPCA import *
+from openFile import *
+from countTable import *
+from columnsNumber import *
 from metadataWork import *
 from countPCA import *
 
 def pca_do(params):
     """
     do whole PCA analysis
-    :param params: class FileFormat() - there are saved all important data for analysis
+    :param params: class JSONformat() - there are saved all important data for analysis
     :return: result (result of analysis), color (array of colours), category (array of categories),
     evr (ratio of variance explained by each counted component), colGraph (number of columns for PCx graph)
     """

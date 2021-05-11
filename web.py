@@ -2,9 +2,8 @@ from __future__ import print_function
 
 from prepareData import *
 from setParams import *
-from saveMatrix import *
+from saveAsFile import *
 from response import *
-from saveResult import *
 from db import *
 from mail import *
 

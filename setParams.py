@@ -1,12 +1,12 @@
-from fileFormat import *
+from JSONformat import *
 
 def setParams(jsdata):
     """
     set params atributes for next analysis
     :param jsdata: data for js form
-    :return: class FileFormat() - there are saved all important data for analysis
+    :return: class JSONformat() - there are saved all important data for analysis
     """
-    params = FileFormat()
+    params = JSONformat()
 
     params.setMetaFileType(jsdata["metaFileType"])
     params.setMetaFile(jsdata["metaFile"])

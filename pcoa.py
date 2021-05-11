@@ -1,17 +1,14 @@
-from openDataFile import *
-from openMetadataFile import *
-from braycurtis import *
-from countPCoAtable import *
+from openFile import *
+from distanceMatrixMetrics import *
+from countTable import *
 from metadataWork import *
-from columnsNumberPCoA import *
+from columnsNumber import *
 from phylogenetic import *
-from weightedUnifrac import *
-from unweightedUnifrac import *
 
 def pcoa_do(params, id):
     """
     do whole PCoA analysis
-    :param params: class FileFormat() - there are saved all important data for analysis
+    :param params: class JSONformat() - there are saved all important data for analysis
     :return: result (result of analysis), color (array of colours), category (array of categories),
     evr (ratio of variance explained by each counted component), colGraph (number of columns for PCx graph)
     """

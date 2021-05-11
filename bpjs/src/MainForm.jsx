@@ -143,7 +143,7 @@ class MainForm extends Component {
                         }
                     }
 
-                    // send data for saving PCx file
+                    // send data for saving transformed data file
                     if (state.button === 2) {
                         if (values.numberOfPC === ""){
                             alert("ENTER A NUMBER OF PRINCIPAL COMPONENTS")

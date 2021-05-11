@@ -25,15 +25,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/FileHandle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/FileHandle.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/braycurtis.py" beforeDir="false" afterPath="$PROJECT_DIR$/distanceMatrixMetrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/columnsNumberPCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/columnsNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/columnsNumberPCoA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countPCAtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/countTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countPCoAtable.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileFormat.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSONformat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materials/text/json_for_api.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/materials/text/json_for_api.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metadataWork.py" beforeDir="false" afterPath="$PROJECT_DIR$/metadataWork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openDataFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/openFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openMetadataFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcoa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareData.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepareData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveAsFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveResult.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/setParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unweightedUnifrac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weightedUnifrac.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +438,7 @@
       <workItem from="1620303109075" duration="600000" />
       <workItem from="1620303971628" duration="1280000" />
       <workItem from="1620476724854" duration="8652000" />
-      <workItem from="1620720273938" duration="1849000" />
+      <workItem from="1620720273938" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="unifrac">
       <created>1619043127439</created>

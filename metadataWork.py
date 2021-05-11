@@ -4,7 +4,7 @@ def metadataWork(metadata, params):
     """
     prepare metadata from metadata file form plot
     :param metadata: file with metadata
-    :param params: class FileFormat() - there are saved all important data for analysis
+    :param params: class JSONformat() - there are saved all important data for analysis
     :return: arrays with colors and categories for plot
     """
     metadata = metadata.applymap(str)
