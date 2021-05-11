@@ -19,17 +19,17 @@ import {store} from './index.js'
 
 // set up a store and work with it
 const baseInitialState = {
-  x: [],
-  y: [],
-  z: [],
-  category: [],
-  evr: [],
-  colGraph: [],
-  legend: [],
-  id: [],
-  maxPCx: [],
-  indexes: [], 
-  showLegend: [],
+  x: [],          // arrays of x coordinates for each data category
+  y: [],          // arrays of y coordinates for each data category
+  z: [],          // arrays of z coordinates for each data category
+  category: [],   // specific categories according to which data are colored
+  evr: [],        // explained variability ratio for axes
+  colGraph: [],   // data for the percentage of variance graph
+  legend: [],     // order of name of metadata in categories
+  id: [],         // ID of session
+  maxPCx: [],     // the number of columns in the percentage of variance graph
+  indexes: [],    // arrays of names or indexes of samples contained in each category
+  showLegend: [], // is legend visible?
 };
 
 const baseReducer = (state= baseInitialState, action) => {

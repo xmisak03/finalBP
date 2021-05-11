@@ -1,7 +1,5 @@
 {
-    "id":null,
-    "type": "OTU table",
-    "generated_by": "QIIME revision 1.4.0-dev",
+    "id":null, "type": "OTU table", "generated_by": "QIIME revision 1.4.0-dev",
     "rows":[
             {"id":"AACCTCAAAA", "metadata":null},
             {"id":"AACTGG", "metadata":null},
@@ -10,29 +8,12 @@
             {"id":"AATAAAGT", "metadata":null}
         ],
     "columns": [
-            {"id":"Sample1", "metadata":{
-                             "meta1":"CGCT",
-                             "meta2":"CATG",
-                             "meta3":"0",
-                             "meta4":"false"}},
-    	    {"id":"Sample2", "metadata":{
-                             "meta1":"CGCA",
-                             "meta2":"CATG",
-                             "meta3":"0",
-                             "meta4":"true"}},
-    	    {"id":"Sample3", "metadata":{
-                             "meta1":"CGCT",
-                             "meta2":"CAAG",
-                             "meta3":"1",
-                             "meta4":"false"}},
-    	    {"id":"Sample4", "metadata":{
-                             "meta1":"CACT",
-                             "meta2":"CATG",
-                             "meta3":"0",
-                             "meta4":"true"}}
+            {"id":"Sample1", "metadata":{"meta1":"CGCT", "meta2":"CATG", "meta3":"0", "meta4":"false"}},
+    	    {"id":"Sample2", "metadata":{"meta1":"CGCA", "meta2":"CATG", "meta3":"0", "meta4":"true"}},
+    	    {"id":"Sample3", "metadata":{"meta1":"CGCT", "meta2":"CAAG", "meta3":"1", "meta4":"false"}},
+    	    {"id":"Sample4", "metadata":{"meta1":"CACT", "meta2":"CATG", "meta3":"0", "meta4":"true"}}
             ],
-    "matrix_type": "dense",
-    "matrix_element_type": "int",
+    "matrix_type": "dense", "matrix_element_type": "int",
     "shape": [5,4],
     "data":  [[0,0,1,0],
               [5,1,0,2],
@@ -40,3 +21,8 @@
               [2,1,1,0],
               [0,1,1,0]]
 }
+
+
+
+
+
