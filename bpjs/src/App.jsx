@@ -167,14 +167,14 @@ useEffect(() => {
 
   // reset all data in forms
   function resetAll(){
-    document.getElementById('nod2').value= null
+    document.getElementById('numberOfPC2').value= null
     document.getElementById('downloadPCoA').style.display='none'
     document.forms[0].reset()
     document.getElementById('filePCoA').value= null
     document.getElementById('metaFile').value= null
     document.getElementById('metadataPart').style.display='none'
 
-    document.getElementById('nod').value= null
+    document.getElementById('numberOfPC').value= null
     document.getElementById('downloadPCA').style.display='none'
     document.forms[1].reset()
     document.getElementById('file').value= null

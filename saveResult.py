@@ -9,7 +9,7 @@ def saveResult(jsdata, data):
     :param data: data, which will be send
     :return:
     """
-    data = data.iloc[:, : int(jsdata['nod'])]
+    data = data.iloc[:, : int(jsdata['numberOfPC'])]
     if jsdata["downloadType"] == 'csv':
         finalPath = os.path.join(PATH, jsdata['id'] + 'result.data')
         data.to_csv(finalPath, index=True, header=True, sep='\t')

@@ -23,7 +23,7 @@ class MainForm extends Component {
     };
 
     // after select data file type
-    onSelect(e, fileType, props) {
+    onSelectFileType(fileType, props) {
         if (fileType == "biom") {
             document.getElementById('metaFile').value = null
             document.getElementById('file').value= null
@@ -43,8 +43,8 @@ class MainForm extends Component {
         }
     }
 
-    // send file to Python and set visibility of components
-    onChange(e, props) {
+    // send file for PC calculation to API and set visibility of components
+    onChangeDataFile(e, props) {
         const formData = new FormData();
         formData.append('file', e.target.files[0])
         formData.append('filename', e.target.value)
@@ -73,7 +73,7 @@ class MainForm extends Component {
     }
 
     // send file with metadata to Python 
-    onChangeM(e, props) {
+    onChangeMetadataFile(e, props) {
         const formData = new FormData();
         formData.append('file', e.target.files[0])
         formData.append('filename', e.target.value)
@@ -91,26 +91,27 @@ class MainForm extends Component {
         return (
         <div className="formWrapper">
             <Formik
-                /*
-                dimension - 2D/3D
-                type - type of analysis
-                fileType - type of data file
-                file - data file
-                coloring - metadata for coloring
-                metaFileType - type of metadata file
-                metaFile - metadata file
-                nod - number of principal components for column graph
-                downloadType - type of file for downloading data for column graph
-                matrixType - type of file for downloading matrix
-                matrix - method for matrix calculation
-                 */
-                initialValues={{dimension: '2D', type: 'PCA', fileType: 'csv', file: '', coloring: '', metaFileType: 'csv',metaFile: '', 
-                nod: '', downloadType: 'csv',  matrixType: 'csv', matrix: '', mail: ''}}
+
+                initialValues={{
+                    coloring: '',           // metadata for coloring
+                    dimension: '2D',        // type of dimensionality
+                    downloadType: 'csv',    // type of file for downloading transformed data
+                    file: '',               // path on the server to file for principal components calculation
+                    fileType: 'csv',        // type of file for principal components calculation
+                    mail: '',               // email address for sending the response
+                    matrix: '',             // method for matrix calculation
+                    matrixType: 'csv',      // type of file for downloading matrix
+                    metaFile: '',           // path on the server to metadata file
+                    metaFileType: 'csv',    // type of metadata file
+                    numberOfPC: '',         // number of principal components for the file with transformed data
+                    type: 'PCA',            // type of analysis
+                }}
+
                 onSubmit={values => {  
                     console.log('submitting', values);  
                 }}
 
-                // send parameters to Python
+                // send parameters to API
                 onSubmit={(values) => {
                     // send data for calculation
                     if (state.button === 1) {
@@ -126,13 +127,13 @@ class MainForm extends Component {
                                 },
                                 body: JSON.stringify(values),
                             }).then((response) => 
-                                // get response from Python
+                                // get response from API
                                 response.json()).then((data) => {
                                     if (data === null){
                                         alert("WRONG INPUT DATA OR FILE");
                                     }
                                     else{
-                                        document.getElementById('nod2').value= null
+                                        document.getElementById('numberOfPC2').value= null
                                         document.getElementById('downloadPCA').style.display='block'
                                         document.getElementById('showLegend').style.display = 'none'
                                         document.getElementById('hideLegend').style.display='block'
@@ -144,10 +145,10 @@ class MainForm extends Component {
 
                     // send data for saving PCx file
                     if (state.button === 2) {
-                        if (values.nod === ""){
+                        if (values.numberOfPC === ""){
                             alert("ENTER A NUMBER OF PRINCIPAL COMPONENTS")
                         }
-                        else if (values.nod < 1 || values.nod > store.getState().base.maxPCx){
+                        else if (values.numberOfPC < 1 || values.numberOfPC > store.getState().base.maxPCx){
                             alert("NUMBER OF PRINCIPAL COMPONENTS OUT OF RANGE")
                         }
                         else{
@@ -157,7 +158,7 @@ class MainForm extends Component {
                                 headers: {
                                     'Content-Type': 'application/json'
                                 },
-                                body: JSON.stringify({id: store.getState().base.id, nod: values.nod, 
+                                body: JSON.stringify({id: store.getState().base.id, numberOfPC: values.numberOfPC, 
                                     downloadType: values.downloadType}),
                             }).then(function (response) {
                                 return response.blob();
@@ -223,7 +224,7 @@ class MainForm extends Component {
                             onChange={props.handleChange}
                             onBlur={props.handleBlur}
                             value={props.values.fileType}
-                            onChangeCapture={e => {this.onSelect(e, this.fileType.value, props)}}
+                            onChangeCapture={() => {this.onSelectFileType(this.fileType.value, props)}}
                         >
                             <option value="csv">csv/data/tsv/txt</option>
                             <option value="json">json</option>
@@ -238,7 +239,7 @@ class MainForm extends Component {
                             name="file"
                             id="file"
                             onChange={this.update}
-                            onInput={e => {this.onChange(e, props.values)}}
+                            onInput={e => {this.onChangeDataFile(e, props.values)}}
                             onBlur={props.handleBlur}
                         />
                     </div>
@@ -279,7 +280,7 @@ class MainForm extends Component {
                                 name="metaFile"
                                 id="metaFile"
                                 onChange={this.update}
-                                onInput={e => {this.onChangeM(e, props.values)}}
+                                onInput={e => {this.onChangeMetadataFile(e, props.values)}}
                                 onChangeCapture={e => {handleFileChosen(e, e.target.files[0], props.values)}} 
                                 onBlur={props.handleBlur}
                             />
@@ -325,7 +326,7 @@ class MainForm extends Component {
                         </div>
                         
 
-                        <input type="text" name="nod" className="input" id="nod2" onChange={props.handleChange}/>
+                        <input type="text" name="numberOfPC" className="input" id="numberOfPC2" onChange={props.handleChange}/>
 
                         <div>
                             <select

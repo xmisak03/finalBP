@@ -27,9 +27,13 @@
     <list default="true" id="c959062d-eeac-48ef-bcbf-58e4aff105b5" name="Default Changelist" comment="unifrac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bpjs/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpjs/src/ColoringData.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/FileHandle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/FileHandle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/MainFormPCoA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bpjs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bpjs/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/setParams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +419,7 @@
       <workItem from="1620303109075" duration="600000" />
       <workItem from="1620303971628" duration="1280000" />
       <workItem from="1620476724854" duration="8652000" />
-      <workItem from="1620720273938" duration="751000" />
+      <workItem from="1620720273938" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="unifrac">
       <created>1619043127439</created>

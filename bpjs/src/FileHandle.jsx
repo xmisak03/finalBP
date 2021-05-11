@@ -4,7 +4,7 @@ export var header = [];
  
 let fileReader;
 
-// get header form csv format
+// get header from csv format
 const handleFileReadCsv = (e) => {
     var content = fileReader.result;
     header = content.split('\n').shift();
@@ -28,7 +28,7 @@ const handleFileReadCsv = (e) => {
     document.getElementById('coloringSectionPCoA').style.display='block'
 };
 
-// get header form json format
+// get header from json format
 const handleFileReadJson = (e) => {
     var content = JSON.parse([fileReader.result]);
     for(var key in content[0]) 
@@ -37,7 +37,7 @@ const handleFileReadJson = (e) => {
     document.getElementById('coloringSectionPCoA').style.display='block'
 };
 
-// get header form biom format
+// get header from biom format
 const handleFileReadBiom = (e) => {
     try{
         var metadata
@@ -76,7 +76,7 @@ export const handleFileChosen = (e, file, pro) => {
     if(file === undefined){
         return;
     }
-    // get header form excel format
+    // get header from excel format
     if (file.name.toString().indexOf(".xlsx") > -1 || file.name.toString().indexOf(".xls") > -1){
         fileReader.onload = function(e) {
             var data = e.target.result;

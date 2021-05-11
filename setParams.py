@@ -14,7 +14,7 @@ def setParams(jsdata):
     params.setFile(jsdata["file"])
     params.setMatrix(jsdata["matrix"])
     params.setType(jsdata["type"])
-    params.setDownload(jsdata["nod"])
+    params.setDownload(jsdata["numberOfPC"])
     params.setDimension(jsdata["dimension"])
     params.coloring = [i.strip() for i in jsdata["coloring"]]
     params.setMail(jsdata["mail"])
