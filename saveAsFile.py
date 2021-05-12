@@ -1,6 +1,6 @@
 from packages import *
 
-PATH = '/mnt/c/Users/silvi/OneDrive/Dokumenty/FIT/pyvenv/materials/uploads'
+PATH = os.getcwd() + '/files'
 
 def saveMatrix(jsdata, output):
     """

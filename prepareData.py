@@ -3,7 +3,7 @@ from pcoa import *
 
 def indexFilter(data, index, color):
     """
-    processing the indexes for color plot
+    processing the indexes (samples) for color plot
     :param data: PCx results from analysis
     :param index: index with matchig color code
     :param color: color code for coloring

@@ -1,6 +1,6 @@
 from packages import *
 
-PATH = '/mnt/c/Users/silvi/OneDrive/Dokumenty/FIT/pyvenv/materials/phylogenetic/'
+PATH = os.getcwd() + '/files'
 MAFFT = '/usr/bin/mafft'
 BINARY_FAST_TREE = '/home/silvia/venv/FastTree'
 

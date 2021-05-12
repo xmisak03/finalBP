@@ -1,30 +1,24 @@
-from __future__ import print_function
-
+from JSONformat import *
 from prepareData import *
-from setParams import *
 from saveAsFile import *
 from response import *
 from db import *
 from mail import *
 
 # prepare for uploading data from web
-UPLOAD_FOLDER = '/mnt/c/Users/silvi/OneDrive/Dokumenty/FIT/pyvenv/materials/uploads'
+UPLOAD_FOLDER = os.getcwd() + '/files'
 
 app = Flask(__name__)
-app.secret_key = 's3cr3t'
 app.debug = True
 app._static_folder = os.path.abspath("templates/static/")
-
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-address = ''
 
 # queue for worker
 q = queue.Queue()
 
 def worker():
     """
-    worker in the case that we need count phylogenetics
+    worker in the case that calculation of the phylogenetic tree is needed
     """
     while True:
         item = q.get()

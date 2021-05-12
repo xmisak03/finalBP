@@ -1,0 +1,21 @@
+https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html
+
+https://pythonspot.com/pyqt5-matplotlib/
+
+https://stackabuse.com/implementing-pca-in-python-with-scikit-learn/  - PCA
+
+https://python-graph-gallery.com/372-3d-pca-result/
+
+PCOA: https://scikit-learn.org/stable/modules/generated/sklearn.manifold.MDS.html
+
+1. Pozriet Emperor plot (Stano posle data) https://biocore.github.io/emperor/
+2. Pozriet PCA
+3. Pozriet PCoA (Non-dimensional scaling)
+
+https://scikit-learn.org/stable/auto_examples/manifold/plot_mds.html#sphx-glr-auto-examples-manifold-plot-mds-py
+https://scikit-learn.org/stable/modules/generated/sklearn.manifold.MDS.html
+http://scikit-bio.org/docs/0.4.1/diversity.html
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+https://mafft.cbrc.jp/alignment/software/
+http://www.microbesonline.org/fasttree/#Install
+http://readiab.org/book/0.1.3/3/1#4.1.2
