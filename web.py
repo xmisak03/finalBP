@@ -29,15 +29,23 @@ def worker():
         # save response for js to file
         try:
             legend = json.dumps(', '.join([str(elem) for elem in params.coloring]))
-            json_data = {'id': item['id'], 'indexes':json.dumps(indexes), 'x': json.dumps(x), 'y': json.dumps(y), 'z': json.dumps(z), 'category': json.dumps(category),
-                         'evr': json.dumps(e[0].tolist()), 'colGraph': json.dumps(colGraph.tolist()), 'legend': legend,
-                         'maxPCx': maxPCx}
+            json_data = {'id': item['id'], 'indexes':json.dumps(indexes), 'x': json.dumps(x), 'y': json.dumps(y),
+                         'z': json.dumps(z), 'category': json.dumps(category), 'evr': json.dumps(e[0].tolist()),
+                         'colGraph': json.dumps(colGraph.tolist()), 'legend': legend, 'maxPCx': maxPCx}
 
-            insertDB({'id': item['id'], 'matrix': matrix, 'result': table, 'response': json.dumps(json_data)})
+            #insertDB({'id': item['id'], 'matrix': matrix, 'result': table, 'response': json.dumps(json_data)})
+            insertDBResult(json_data)
+            insertDBDistanceMatrix({'id': item['id'], 'matrix': matrix})
+            insertDBTransformedData({'id': item['id'], 'result': table})
             sendMail(params, item['id'], True)
 
         except Exception as e:
-            insertDB({'id': item['id'], 'matrix': "", 'result': "", 'response': "error"})
+            json_data = {'id': item['id'], 'indexes': "error", 'x': "", 'y': "", 'z': "", 'category': "",
+                         'evr': "", 'colGraph': "", 'legend': "", 'maxPCx': ''}
+            #insertDB({'id': item['id'], 'matrix': "", 'result': "", 'response': "error"})
+            insertDBResult(json_data)
+            insertDBDistanceMatrix({'id': item['id'], 'matrix': ""})
+            insertDBTransformedData({'id': item['id'], 'result': ""})
             sendMail(params, None, False)
 
         q.task_done()
@@ -51,9 +59,9 @@ def send_mail_response(id):
     :param id: id of request
     :return: response json for js
     """
-    response = getItem(id)
+    response = getItemDBResult(id)
     try:
-        return json.loads(response[0][3])
+        return response
     except Exception as e:
         return {'result': 'error'}
 
@@ -64,14 +72,14 @@ def send_unifrac(id):
     :param id: id of request
     :return: response json for js
     """
-    response = getItem(id)
+    response = getItemDBResult(id)
     if response != []:
-        if response[0][3] == "error":
+        if response['indexes'] == "error":
             json_data = {'result': 'error'}
+            return json_data
         else:
-            json_data = json.loads(response[0][3])
+            return response
 
-        return json_data
     else:
         return jsonify(None)
 
@@ -96,7 +104,7 @@ def post_matrix():
     jsdata = request.get_json()
 
     try:
-        response = getItem(jsdata["id"])
+        response = getItemDBDistanceMatrix(jsdata["id"])
         dict = json.loads(response[0][1])
         data = pd.DataFrame(dict['data'], index=dict['columns'], columns=dict['columns'])
         file_data = saveMatrix(jsdata, data)
@@ -114,8 +122,8 @@ def post_table():
     jsdata = request.get_json()
 
     try:
-        response = getItem(jsdata["id"])
-        dict = json.loads(response[0][2])
+        response = getItemDBTransformedData(jsdata["id"])
+        dict = json.loads(response[0][1])
         data = pd.DataFrame(dict['data'], index=dict['index'], columns=dict['columns'])
         file_data = saveResult(jsdata, data)
         return createResponse(file_data)
@@ -132,7 +140,13 @@ def post_api():
 
     jsdata = request.get_json()
     params = setParams(jsdata)
-    id = uuid.uuid1().hex
+    isInDB = True
+    while isInDB:
+        id = uuid.uuid1().hex
+        isInDB = getItemDBDistanceMatrix(id)
+
+    if isInDB == False:
+        insertDBDIdentificator(id)
 
     if params.matrix == "unifrac_weighted" or params.matrix == "unifrac_unweighted" :
         data_for_unifrac = {'id': id, 'params': params}
@@ -142,7 +156,8 @@ def post_api():
         return response
 
     x, y, z, e, colGraph, category, maxPCx, table, matrix, indexes = preparingData(params, id)
-    insertDB({'id': id, 'matrix': matrix, 'result': table, 'response': ''})
+    insertDBDistanceMatrix({'id': id, 'matrix': matrix})
+    insertDBTransformedData({'id': id, 'result': table})
 
     # send response to the web
     try:
