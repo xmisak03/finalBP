@@ -7,7 +7,7 @@ def sendMail(params, id, isSuccess):
     :param id: id of request
     :param isSuccess: flag if calculation was successful
     """
-    port = 465  # For SSL
+    port = 465
     smtp_server = "smtp.gmail.com"
     sender_email = "toolfordatavisualization@gmail.com"
     receiver_email = params.mail
